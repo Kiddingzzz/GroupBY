@@ -16,3 +16,12 @@ C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.Domain\obj\Debug\netstandard2.
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.dll
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.csprojAssemblyReference.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\bin\Debug\netstandard2.0\Sport7.CMS.Domain.deps.json
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.csprojAssemblyReference.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.csproj.CoreCompileInputs.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.AssemblyInfoInputs.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.AssemblyInfo.cs
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.Domain\obj\Debug\netstandard2.0\Sport7.CMS.Domain.pdb

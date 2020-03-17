@@ -8796,11 +8796,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj",
       "projectName": "Sport7.CMS.HttpApi",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.HttpApi\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.HttpApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8820,8 +8820,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj"
             }
           }
         }

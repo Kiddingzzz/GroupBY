@@ -16,3 +16,17 @@ C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.csproj.CopyComplete
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.dll
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.HttpApi.deps.json
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.HttpApi.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.HttpApi.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.Application.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.Application.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.csprojAssemblyReference.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.csproj.CoreCompileInputs.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.AssemblyInfoInputs.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.AssemblyInfo.cs
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.csproj.CopyComplete
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.HttpApi\obj\Debug\netstandard2.0\Sport7.CMS.HttpApi.pdb

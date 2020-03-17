@@ -8930,11 +8930,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.Domain.Tests\\Sport7.CMS.Domain.Tests.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.Domain.Tests\\Sport7.CMS.Domain.Tests.csproj",
       "projectName": "Sport7.CMS.Domain.Tests",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.Domain.Tests\\Sport7.CMS.Domain.Tests.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.Domain.Tests\\Sport7.CMS.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.Domain.Tests\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8954,8 +8954,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj"
             }
           }
         }

@@ -14,7 +14,7 @@
 			</swiper>
 			<view v-if="double == 'Video'" class="swiper">
 				<view>
-					<video class="vid" id="myVideo" src="https://lpvideo-10011010.anjukestatic.com/lpvideo/1007539305192644608.mp4.f30.mp4?sign=Zr9RbPRKSLyLcysyYBMLU9NnvAthPTEwMDExMDEwJms9QUtJRDV4UDhscUtoSVd4eUpHbnJXd3NiY0xTRzJZRmJ2Zlp4JmU9MTU4MzU1ODcyMyZ0PTE1ODM1NTgxMjMmcj02NDExNDQ1NzQmZj0mYj1scHZpZGVv"
+					<video class="vid" id="myVideo" src="https://lpvideo-10011010.anjukestatic.com/lpvideo/1143330800377315330.mp4.f30.mp4?sign=c+icjfMSBDqpud1YkWQEYptUgwdhPTEwMDExMDEwJms9QUtJRDV4UDhscUtoSVd4eUpHbnJXd3NiY0xTRzJZRmJ2Zlp4JmU9MTU4NDQxMjY1MiZ0PTE1ODQ0MTIwNTImcj0zMzY2ODYwNTMmZj0mYj1scHZpZGVv"
 					 controls></video>
 				</view>
 			</view>

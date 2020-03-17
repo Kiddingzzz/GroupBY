@@ -3639,11 +3639,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj",
       "projectName": "Sport7.CMS.Domain",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

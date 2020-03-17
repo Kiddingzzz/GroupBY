@@ -22,3 +22,15 @@ C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
 C:\Users\Administrator\Desktop\cms\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+D:\GroupBY\GroupBY\团购网\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb

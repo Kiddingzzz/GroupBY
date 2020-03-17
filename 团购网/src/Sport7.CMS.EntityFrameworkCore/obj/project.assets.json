@@ -4761,11 +4761,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj",
       "projectName": "Sport7.CMS.EntityFrameworkCore",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4785,8 +4785,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj"
             }
           }
         }

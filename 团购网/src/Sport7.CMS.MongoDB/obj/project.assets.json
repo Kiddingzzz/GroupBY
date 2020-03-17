@@ -6544,11 +6544,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.MongoDB\\Sport7.CMS.MongoDB.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.MongoDB\\Sport7.CMS.MongoDB.csproj",
       "projectName": "Sport7.CMS.MongoDB",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.MongoDB\\Sport7.CMS.MongoDB.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.MongoDB\\Sport7.CMS.MongoDB.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.MongoDB\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.MongoDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6568,8 +6568,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Domain\\Sport7.CMS.Domain.csproj"
             }
           }
         }

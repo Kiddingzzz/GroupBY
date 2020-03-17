@@ -5121,3 +5121,145 @@ Parameter name: name
 2020-03-07 16:22:30.139 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.Application.Dtos.ListResultDto`1[[Sport7.CMS.House.Dto.HouseListLookOutput, Sport7.CMS.Application, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
 2020-03-07 16:22:30.139 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) in 23.488400000000002ms
 2020-03-07 16:22:30.139 +08:00 [INF] Request finished in 27.1375ms 200 application/json; charset=utf-8
+2020-03-17 10:19:14.894 +08:00 [INF] Starting web host.
+2020-03-17 10:19:18.071 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-17 10:19:18.197 +08:00 [INF] Loaded modules:
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Castle.Sport7CastleCoreModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Autofac.Sport7AutofacModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.VirtualFileSystem.Sport7VirtualFileSystemModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Localization.Sport7LocalizationAbstractionsModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Security.Sport7SecurityModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Data.Sport7DataModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.MultiTenancy.Sport7MultiTenancyModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Settings.Sport7SettingsModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Localization.Sport7LocalizationModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.CMS.CMSDomainModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.ObjectMapping.Sport7ObjectMappingModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.AutoMapper.Sport7AutoMapperModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.CMS.CMSApplicationModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Timing.Sport7TimingModule
+2020-03-17 10:19:18.197 +08:00 [INF] - Sport7.Json.Sport7JsonModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Threading.Sport7ThreadingModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Auditing.Sport7AuditingModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.EventBus.Sport7EventBusModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Guids.Sport7GuidsModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Uow.Sport7UnitOfWorkModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Domain.Sport7DddDomainModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.EntityFrameworkCore.Sport7EntityFrameworkCoreModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.CMS.EntityFrameworkCore.CMSEntityFrameworkCoreModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Http.Sport7HttpAbstractionsModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Http.Sport7HttpModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Authorization.Sport7AuthorizationModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.UI.Sport7UiModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Validation.Sport7ValidationModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.AspNetCore.Sport7AspNetCoreModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.ApiVersioning.Sport7ApiVersioningAbstractionsModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Features.Sport7FeaturesModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Application.Sport7DddApplicationModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.AspNetCore.Mvc.Sport7AspNetCoreMvcContractsModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.AspNetCore.Mvc.Sport7AspNetCoreMvcModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.CMS.CMSHttpApiModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.PermissionManagement.Sport7PermissionManagementDomainSharedModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Serialization.Sport7SerializationModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.Caching.Sport7CachingModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.PermissionManagement.Sport7PermissionManagementDomainModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.PermissionManagement.EntityFrameworkCore.Sport7PermissionManagementEntityFrameworkCoreModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.SettingManagement.Sport7SettingManagementDomainSharedModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.SettingManagement.Sport7SettingManagementDomainModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.SettingManagement.EntityFrameworkCore.Sport7SettingManagementEntityFrameworkCoreModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.AuditLogging.Sport7AuditLoggingDomainSharedModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.AuditLogging.Sport7AuditLoggingDomainModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.AuditLogging.EntityFrameworkCore.Sport7AuditLoggingEntityFrameworkCoreModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.EntityFrameworkCore.SqlServer.Sport7EntityFrameworkCoreSqlServerModule
+2020-03-17 10:19:18.198 +08:00 [INF] - Sport7.CMS.Host.HostModule
+2020-03-17 10:19:18.245 +08:00 [DBG] Found 12 classes define auto mapping attributes.
+2020-03-17 10:19:18.245 +08:00 [DBG] Sport7.CMS.Votes.Dtos.VoteDetailDto
+2020-03-17 10:19:18.249 +08:00 [DBG] Sport7.CMS.Votes.Dtos.VoteDetailOutput
+2020-03-17 10:19:18.249 +08:00 [DBG] Sport7.CMS.Votes.Dtos.VoteList
+2020-03-17 10:19:18.249 +08:00 [DBG] Sport7.CMS.Votes.Dtos.VoteDetailInput
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Votes.Dtos.VoteDetailSection
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.House.Dto.HouseInput
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Feedbacks.Dto.CreateFeedbackInput
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Feedbacks.Dto.FeedbackListDto
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Announcements.Dto.AnnouncementDto
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Announcements.Dto.AnnouncementListDto
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Announcements.Dto.CreateAnnouncementInput
+2020-03-17 10:19:18.250 +08:00 [DBG] Sport7.CMS.Announcements.Dto.UpdataAnnouncementInput
+2020-03-17 10:19:19.981 +08:00 [INF] Initialized all modules.
+2020-03-17 10:19:20.300 +08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:57992/  0
+2020-03-17 10:19:20.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/  
+2020-03-17 10:19:20.339 +08:00 [INF] Request finished in 38.779ms 200 
+2020-03-17 10:19:20.382 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:19:20.396 +08:00 [WRN] AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures '["zh-CN","zh"]'.
+2020-03-17 10:19:20.399 +08:00 [WRN] AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures '["zh-CN","zh"]'.
+2020-03-17 10:19:20.646 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Sport7.CMS.Host.Controllers.HomeController (Sport7.CMS.Host).
+2020-03-17 10:19:20.692 +08:00 [INF] Executing action method Sport7.CMS.Host.Controllers.HomeController.Index (Sport7.CMS.Host) - Validation state: "Valid"
+2020-03-17 10:19:20.694 +08:00 [INF] Executed action method Sport7.CMS.Host.Controllers.HomeController.Index (Sport7.CMS.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.1907ms.
+2020-03-17 10:19:20.701 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-03-17 10:19:20.703 +08:00 [INF] Executed action Sport7.CMS.Host.Controllers.HomeController.Index (Sport7.CMS.Host) in 55.311400000000006ms
+2020-03-17 10:19:20.706 +08:00 [INF] Request finished in 408.1547ms 302 
+2020-03-17 10:19:20.708 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/swagger  
+2020-03-17 10:19:20.709 +08:00 [INF] Request finished in 0.6795ms 301 
+2020-03-17 10:19:20.712 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/swagger/index.html  
+2020-03-17 10:19:20.771 +08:00 [INF] Request finished in 59.5433ms 200 text/html
+2020-03-17 10:19:20.788 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/swagger/swagger-ui.css  
+2020-03-17 10:19:20.829 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-03-17 10:19:20.833 +08:00 [INF] Request finished in 44.5864ms 200 text/css
+2020-03-17 10:19:21.383 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/swagger/v1/swagger.json  
+2020-03-17 10:19:21.579 +08:00 [INF] Request finished in 195.769ms 200 application/json;charset=utf-8
+2020-03-17 10:26:20.006 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/houseList application/json 
+2020-03-17 10:26:20.007 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:26:20.034 +08:00 [INF] Route matched with {action = "GetHouseList", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.Application.Dtos.ListResultDto`1[Sport7.CMS.House.Dto.HouseListLookOutput]] GetHouseList() on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:26:20.368 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:26:20.649 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 281.423ms.
+2020-03-17 10:26:20.655 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.Application.Dtos.ListResultDto`1[[Sport7.CMS.House.Dto.HouseListLookOutput, Sport7.CMS.Application, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-03-17 10:26:20.664 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) in 629.8028ms
+2020-03-17 10:26:20.664 +08:00 [INF] Request finished in 657.894ms 200 application/json; charset=utf-8
+2020-03-17 10:26:22.279 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/0b1a1866-0bd3-72eb-25e5-39f3973f72eb/houseDetail application/json 
+2020-03-17 10:26:22.280 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:26:22.309 +08:00 [INF] Route matched with {action = "GetHouseDetail", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.CMS.House.Dto.HouseOutput] GetHouseDetail(System.Guid) on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:26:22.336 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:26:22.430 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 93.969000000000008ms.
+2020-03-17 10:26:22.463 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.CMS.House.Dto.HouseOutput'.
+2020-03-17 10:26:22.468 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) in 159.0298ms
+2020-03-17 10:26:22.468 +08:00 [INF] Request finished in 188.6499ms 200 application/json; charset=utf-8
+2020-03-17 10:28:11.284 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/houseList application/json 
+2020-03-17 10:28:11.285 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:28:11.294 +08:00 [INF] Route matched with {action = "GetHouseList", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.Application.Dtos.ListResultDto`1[Sport7.CMS.House.Dto.HouseListLookOutput]] GetHouseList() on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:28:11.298 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:28:11.304 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.6136ms.
+2020-03-17 10:28:11.304 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.Application.Dtos.ListResultDto`1[[Sport7.CMS.House.Dto.HouseListLookOutput, Sport7.CMS.Application, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-03-17 10:28:11.304 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) in 10.2824ms
+2020-03-17 10:28:11.304 +08:00 [INF] Request finished in 20.5657ms 200 application/json; charset=utf-8
+2020-03-17 10:28:12.432 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/0b1a1866-0bd3-72eb-25e5-39f3973f72eb/houseDetail application/json 
+2020-03-17 10:28:12.432 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:28:12.434 +08:00 [INF] Route matched with {action = "GetHouseDetail", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.CMS.House.Dto.HouseOutput] GetHouseDetail(System.Guid) on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:28:12.436 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:28:12.439 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.0081ms.
+2020-03-17 10:28:12.439 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.CMS.House.Dto.HouseOutput'.
+2020-03-17 10:28:12.439 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) in 5.0639ms
+2020-03-17 10:28:12.439 +08:00 [INF] Request finished in 7.2543ms 200 application/json; charset=utf-8
+2020-03-17 10:28:24.747 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/houseList application/json 
+2020-03-17 10:28:24.748 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:28:24.749 +08:00 [INF] Route matched with {action = "GetHouseList", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.Application.Dtos.ListResultDto`1[Sport7.CMS.House.Dto.HouseListLookOutput]] GetHouseList() on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:28:24.751 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:28:24.756 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.1877ms.
+2020-03-17 10:28:24.756 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.Application.Dtos.ListResultDto`1[[Sport7.CMS.House.Dto.HouseListLookOutput, Sport7.CMS.Application, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-03-17 10:28:24.757 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseList (Sport7.CMS.Application) in 7.0381ms
+2020-03-17 10:28:24.757 +08:00 [INF] Request finished in 9.2358ms 200 application/json; charset=utf-8
+2020-03-17 10:28:26.239 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/0b1a1866-0bd3-72eb-25e5-39f3973f72eb/houseDetail application/json 
+2020-03-17 10:28:26.240 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:28:26.243 +08:00 [INF] Route matched with {action = "GetHouseDetail", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.CMS.House.Dto.HouseOutput] GetHouseDetail(System.Guid) on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:28:26.246 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:28:26.249 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.2632000000000003ms.
+2020-03-17 10:28:26.250 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.CMS.House.Dto.HouseOutput'.
+2020-03-17 10:28:26.250 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) in 7.0659ms
+2020-03-17 10:28:26.250 +08:00 [INF] Request finished in 10.5918ms 200 application/json; charset=utf-8
+2020-03-17 10:39:46.918 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:57992/api/cms/house/0b1a1866-0bd3-72eb-25e5-39f3973f72eb/houseDetail application/json 
+2020-03-17 10:39:46.921 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-03-17 10:39:46.923 +08:00 [INF] Route matched with {action = "GetHouseDetail", controller = "House", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Sport7.CMS.House.Dto.HouseOutput] GetHouseDetail(System.Guid) on controller Sport7.CMS.House.HouseAppService (Sport7.CMS.Application).
+2020-03-17 10:39:46.925 +08:00 [INF] Executing action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) - Validation state: "Valid"
+2020-03-17 10:39:46.958 +08:00 [INF] Executed action method Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33.5768ms.
+2020-03-17 10:39:46.959 +08:00 [INF] Executing ObjectResult, writing value of type 'Sport7.CMS.House.Dto.HouseOutput'.
+2020-03-17 10:39:46.959 +08:00 [INF] Executed action Sport7.CMS.House.HouseAppService.GetHouseDetail (Sport7.CMS.Application) in 35.3479ms
+2020-03-17 10:39:46.959 +08:00 [INF] Request finished in 41.6341ms 200 application/json; charset=utf-8

@@ -8911,11 +8911,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj",
       "projectName": "Sport7.CMS.EntityFrameworkCore.Tests",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\Sport7.CMS.EntityFrameworkCore.Tests.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.EntityFrameworkCore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8935,11 +8935,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj"
             },
-            "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.TestBase\\Sport7.CMS.TestBase.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\test\\Sport7.CMS.TestBase\\Sport7.CMS.TestBase.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.TestBase\\Sport7.CMS.TestBase.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\test\\Sport7.CMS.TestBase\\Sport7.CMS.TestBase.csproj"
             }
           }
         }

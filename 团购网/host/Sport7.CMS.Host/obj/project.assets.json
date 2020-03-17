@@ -15574,11 +15574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\cms\\host\\Sport7.CMS.Host\\Sport7.CMS.Host.csproj",
+      "projectUniqueName": "D:\\GroupBY\\GroupBY\\团购网\\host\\Sport7.CMS.Host\\Sport7.CMS.Host.csproj",
       "projectName": "Sport7.CMS.Host",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\host\\Sport7.CMS.Host\\Sport7.CMS.Host.csproj",
+      "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\host\\Sport7.CMS.Host\\Sport7.CMS.Host.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\cms\\host\\Sport7.CMS.Host\\obj\\",
+      "outputPath": "D:\\GroupBY\\GroupBY\\团购网\\host\\Sport7.CMS.Host\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15598,14 +15598,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.Application\\Sport7.CMS.Application.csproj"
             },
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.EntityFrameworkCore\\Sport7.CMS.EntityFrameworkCore.csproj"
             },
-            "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\cms\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj"
+            "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj": {
+              "projectPath": "D:\\GroupBY\\GroupBY\\团购网\\src\\Sport7.CMS.HttpApi\\Sport7.CMS.HttpApi.csproj"
             }
           }
         }
