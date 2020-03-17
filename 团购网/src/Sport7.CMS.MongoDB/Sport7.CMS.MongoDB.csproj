@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Sport7.CMS</RootNamespace>
+    <AssemblyName>Sport7.CMS.MongoDB</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sport7.CMS.Domain\Sport7.CMS.Domain.csproj" />
+    <PackageReference Include="Sport7.MongoDB" Version="0.14.0" />
+  </ItemGroup>
+
+</Project>
+

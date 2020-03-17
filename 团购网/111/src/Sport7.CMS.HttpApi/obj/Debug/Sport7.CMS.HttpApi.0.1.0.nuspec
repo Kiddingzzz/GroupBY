@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sport7.CMS.HttpApi</id>
+    <version>0.1.0</version>
+    <authors>Sport7.CMS.HttpApi</authors>
+    <owners>Sport7.CMS.HttpApi</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Sport7.CMS.Application" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Sport7.AspNetCore.Mvc" version="0.14.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.HttpApi.pdb" target="lib\netstandard2.0\Sport7.CMS.HttpApi.pdb" />
+    <file src="C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Debug\netstandard2.0\Sport7.CMS.HttpApi.dll" target="lib\netstandard2.0\Sport7.CMS.HttpApi.dll" />
+  </files>
+</package>

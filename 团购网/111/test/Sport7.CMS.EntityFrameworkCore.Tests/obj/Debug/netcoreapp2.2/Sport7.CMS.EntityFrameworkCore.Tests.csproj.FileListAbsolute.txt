@@ -1,0 +1,107 @@
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.deps.json
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.json
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.pdb
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csprojAssemblyReference.cache
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfo.cs
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CopyComplete
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+D:\ihome (1)\4.6.0\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.deps.json
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.json
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.pdb
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CopyComplete
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\SiteS\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.deps.json
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.json
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.TestBase.pdb
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.csproj.CopyComplete
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.dll
+C:\Users\Administrator\Desktop\cms\111\test\Sport7.CMS.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.Tests.pdb

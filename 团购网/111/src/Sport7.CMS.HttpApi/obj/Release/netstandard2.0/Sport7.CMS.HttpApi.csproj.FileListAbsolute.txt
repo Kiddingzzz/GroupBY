@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.HttpApi.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.HttpApi.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.HttpApi.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\bin\Release\netstandard2.0\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.HttpApi\obj\Release\netstandard2.0\Sport7.CMS.HttpApi.pdb

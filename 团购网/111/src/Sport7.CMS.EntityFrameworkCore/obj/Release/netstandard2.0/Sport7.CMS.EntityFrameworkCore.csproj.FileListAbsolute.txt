@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Release\netstandard2.0\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Release\netstandard2.0\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Release\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb

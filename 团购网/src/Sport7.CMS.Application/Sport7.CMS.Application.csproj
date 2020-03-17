@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Sport7.CMS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Localization\ApplicationContracts\en.json" />
+    <None Remove="Localization\ApplicationContracts\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\ApplicationContracts\en.json" />
+    <EmbeddedResource Include="Localization\ApplicationContracts\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sport7.AutoMapper" Version="0.14.0" />
+    <PackageReference Include="Sport7.Ddd.Application" Version="0.14.0" />
+    <PackageReference Include="Sport7.SettingManagement.Domain" Version="0.14.0" />
+    <ProjectReference Include="..\Sport7.CMS.Domain\Sport7.CMS.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
+

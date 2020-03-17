@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sport7.CMS.EntityFrameworkCore</id>
+    <version>0.1.0</version>
+    <authors>Sport7.CMS.EntityFrameworkCore</authors>
+    <owners>Sport7.CMS.EntityFrameworkCore</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Sport7.CMS.Domain" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Sport7.AuditLogging.EntityFrameworkCore" version="0.14.0" exclude="Build,Analyzers" />
+        <dependency id="Sport7.EntityFrameworkCore" version="0.14.0" exclude="Build,Analyzers" />
+        <dependency id="Sport7.EntityFrameworkCore.SqlServer" version="0.14.0" exclude="Build,Analyzers" />
+        <dependency id="Sport7.PermissionManagement.EntityFrameworkCore" version="0.14.0" exclude="Build,Analyzers" />
+        <dependency id="Sport7.SettingManagement.EntityFrameworkCore" version="0.14.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb" target="lib\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb" />
+    <file src="C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll" target="lib\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll" />
+  </files>
+</package>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Sport7.CMS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sport7.CMS.Application\Sport7.CMS.Application.csproj" />
+    <ProjectReference Include="..\Sport7.CMS.Domain\Sport7.CMS.Domain.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Sport7.EntityFrameworkCore" Version="0.14.0" />
+	<PackageReference Include="Sport7.PermissionManagement.EntityFrameworkCore" Version="0.14.0" />
+    <PackageReference Include="Sport7.SettingManagement.EntityFrameworkCore" Version="0.14.0" />
+    <PackageReference Include="Sport7.AuditLogging.EntityFrameworkCore" Version="0.14.0" />
+	<PackageReference Include="Sport7.EntityFrameworkCore.SqlServer" Version="0.14.0" />
+  </ItemGroup>
+
+</Project>
+

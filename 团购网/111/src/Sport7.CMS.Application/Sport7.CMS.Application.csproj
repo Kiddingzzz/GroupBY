@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Sport7.CMS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Localization\ApplicationContracts\en.json" />
+    <None Remove="Localization\ApplicationContracts\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\ApplicationContracts\en.json" />
+    <EmbeddedResource Include="Localization\ApplicationContracts\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Sport7.AutoMapper" Version="0.14.0" />
+    <PackageReference Include="Sport7.Ddd.Application" Version="0.14.0" />
+    <ProjectReference Include="..\Sport7.CMS.Domain\Sport7.CMS.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.hosting.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sport7.Identity.Application">
+      <HintPath>C:\Users\Administrator\.nuget\packages\sport7.identity.application\0.14.0\lib\netstandard2.0\Sport7.Identity.Application.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,115 @@
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.deps.json
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.json
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.dev.json
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.dll
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.pdb
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csprojAssemblyReference.cache
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CoreCompileInputs.cache
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cache
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cs
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfoInputs.cache
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfo.cs
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorTargetAssemblyInfo.cache
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CopyComplete
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+D:\DM3\DM3\src\Services\CMS\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.deps.json
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.json
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.dev.json
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.dll
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csprojAssemblyReference.cache
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cache
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cs
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfoInputs.cache
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfo.cs
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorTargetAssemblyInfo.cache
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CopyComplete
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+D:\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.deps.json
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.json
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.dll
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.pdb
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CopyComplete
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+C:\Users\Administrator\Desktop\SiteS\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.deps.json
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.json
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.dll
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.HttpApi.pdb
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\bin\Debug\netcoreapp2.2\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.csproj.CopyComplete
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.dll
+C:\Users\Administrator\Desktop\cms\111\host\Sport7.CMS.Host\obj\Debug\netcoreapp2.2\Sport7.CMS.Host.pdb

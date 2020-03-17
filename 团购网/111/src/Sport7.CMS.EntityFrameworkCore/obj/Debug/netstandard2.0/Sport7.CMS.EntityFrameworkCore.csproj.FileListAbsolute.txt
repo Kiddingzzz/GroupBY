@@ -1,0 +1,74 @@
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+D:\DM3\DM3\src\Services\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\CMS\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+D:\ihome (1)\4.6.0\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\SiteS\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.deps.json
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Application.dll
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.dll
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Application.pdb
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\bin\Debug\netstandard2.0\Sport7.CMS.Domain.pdb
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\cms\111\src\Sport7.CMS.EntityFrameworkCore\obj\Debug\netstandard2.0\Sport7.CMS.EntityFrameworkCore.pdb

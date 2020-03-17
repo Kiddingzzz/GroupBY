@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Sport7.CMS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Sport7.Ddd.Domain" Version="0.14.0" />
+    <PackageReference Include="Sport7.Localization" Version="0.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sport7\CMS\Localization\Domain\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Sport7\CMS\Localization\Domain\*.json" />
+  </ItemGroup>
+
+</Project>
+
