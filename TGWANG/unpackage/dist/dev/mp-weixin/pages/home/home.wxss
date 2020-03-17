@@ -1,0 +1,95 @@
+.det {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 30rpx 40rpx;
+}
+.det .search-wrap {
+  font-size: 28rpx;
+  height: 120rpx;
+}
+.det .tips {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.det .tips .cantcgl {
+  height: 152rpx;
+  font-size: 24rpx;
+  color: #555;
+}
+.det .tips .cantcgl .imgs {
+  width: 80rpx;
+  height: 80rpx;
+}
+.det .Advertisement {
+  width: 100%;
+  height: 144rpx;
+  border: 1px solid red;
+  margin-bottom: 60rpx;
+}
+.det .hotTop {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-bottom: 20rpx;
+}
+.det .hotTop .loupan {
+  height: 172rpx;
+  width: 100%;
+}
+.det .hotTop .loupan view {
+  font-size: 18px;
+  text-align: center;
+  margin-top: -60px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.det .hotTop .hhd {
+  width: 100%;
+}
+.det .hotTop .hhd view {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -60px;
+  font-weight: 700;
+}
+.det .hotTop .sideBank {
+  margin-left: 10rpx;
+  height: 172rpx;
+  width: 100%;
+}
+.det .hotTop .sideBank view {
+  font-size: 18px;
+  text-align: center;
+  margin-top: -60px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+

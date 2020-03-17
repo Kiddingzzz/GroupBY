@@ -1,0 +1,89 @@
+.topbanner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.topbanner .swiper-tabbar {
+  border: 1px solid;
+  height: 90%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.topbanner .bottom {
+  border: 1px solid red;
+  height: 10%;
+}
+.tab-body {
+  height: calc(100vh -56);
+}
+.status-contents {
+  height: 25px;
+}
+.uni-swiper-tab {
+  white-space: nowrap;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.status {
+  height: 0px;
+  width: 100%;
+  position: fixed;
+  background-color: #f8f8f8;
+  top: 0;
+  z-index: 999;
+}
+.scroll-tab {
+  white-space: nowrap;
+  /* 必要，导航栏才能横向*/
+  border-bottom: 1rpx solid #eee;
+}
+.scroll-tab-item {
+  display: inline-block;
+  /* 必要，导航栏才能横向*/
+  margin: 20rpx 30rpx 0 30rpx;
+}
+.active .scroll-tab-line {
+  border-bottom: 5rpx solid red;
+  border-top: 5rpx solid red;
+  border-radius: 20rpx;
+  width: 70rpx;
+}
+.swiper-tab-list {
+  display: inline-block;
+  /* 必要，导航栏才能横向*/
+  margin-left: 15px;
+  height: 30px;
+  color: #878787;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'PingFangSC-regular';
+}
+.swiper-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.active-community {
+  border-bottom: 5rpx solid #ea5404;
+  color: #ea5404;
+}
+

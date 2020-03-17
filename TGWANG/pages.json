@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/home/Img/ImgCenter",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "推荐"
+			}
+		},
+		{
+			"path": "pages/home/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/home/loupanParameters",
+			"style": {
+				"navigationBarTitleText": "楼盘参数"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home/home",
+				// "iconPath": "static/component.png",
+				// "selectedIconPath": "static/componentHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/recommend/recommend",
+				// "iconPath": "static/api.png",
+				// "selectedIconPath": "static/apiHL.png",
+				"text": "推荐"
+			}, {
+				"pagePath": "pages/center/center",
+				// "iconPath": "static/extui.png",
+				// "selectedIconPath": "static/extuiHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}

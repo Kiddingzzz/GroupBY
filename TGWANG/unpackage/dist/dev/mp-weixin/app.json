@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/center/center",
+    "pages/home/home",
+    "pages/home/Img/ImgCenter",
+    "pages/recommend/recommend",
+    "pages/home/detail",
+    "pages/home/loupanParameters"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap62.json"
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "图片详情",
+  "usingComponents": {
+    "huxing": "/pages/home/Img/components/huxing",
+    "loupan": "/pages/home/Img/components/loupan",
+    "peitao": "/pages/home/Img/components/peitao",
+    "shapan": "/pages/home/Img/components/shapan",
+    "zhengzhao": "/pages/home/Img/components/zhengzhao"
+  }
+}

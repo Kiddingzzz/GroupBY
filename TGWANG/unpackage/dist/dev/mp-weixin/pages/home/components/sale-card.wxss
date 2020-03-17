@@ -1,0 +1,12 @@
+.ab {
+  line-height: 26px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.ab .gg {
+  color: #666666;
+}
+.ab .gg .ggf {
+  color: #000;
+}
+
