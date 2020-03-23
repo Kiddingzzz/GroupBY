@@ -21,7 +21,8 @@
 		{
 			"path": "pages/recommend/recommend",
 			"style": {
-				"navigationBarTitleText": "推荐"
+				"navigationBarTitleText": "推荐",
+				"enablePullDownRefresh": true
 			}
 		},
 		{
@@ -34,6 +35,29 @@
 			"path": "pages/home/loupanParameters",
 			"style": {
 				"navigationBarTitleText": "楼盘参数"
+			}
+		},
+		{
+			"path" : "pages/recommend/detailpage",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/myaddress/myaddress",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/center/myorder/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单"
 			}
 		}
 	],
@@ -64,6 +88,16 @@
 				// "iconPath": "static/extui.png",
 				// "selectedIconPath": "static/extuiHL.png",
 				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
 			}
 		]
 	}

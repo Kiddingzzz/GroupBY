@@ -30,7 +30,7 @@
 		</view>
 		<view class="list" v-for="(list, list_i) in severList" :key="list_i">
 			<view class="listitem">
-				<view class="li" v-for="(li, li_i) in list" @tap="toPage(list_i, li_i)" v-bind:class="{ noborder: li_i == list.length - 1 }" hover-class="hover" :key="li.name">
+				<view class="li" v-for="(li, li_i) in list" @click="goDetailPage(list_i, li_i)" v-bind:class="{ noborder: li_i == list.length - 1 }" hover-class="hover" :key="li.name">
 					<view class="icon"><image :src="'../../static/HM-PersonalCenter/sever/' + li.icon"></image></view>
 					<view class="text">{{ li.name }}</view>
 					<image class="to" src="../../static/HM-PersonalCenter/to.png"></image>
@@ -61,10 +61,10 @@ export default {
 			],
 			severList: [
 				[
-					{ name: '发布结果', icon: 'security.png' },
-					{ name: '我的收藏', icon: 'quan.png' },
+					{ name: '我的订单', icon: 'security.png', urlname: '/pages/center/myorder/myorder'},
+					{ name: '收货地址', icon: 'addr.png', urlname: '/pages/center/myaddress/myaddress' },
 					{ name: '开通会员', icon: 'mingxi.png' },
-					{ name: '向平台推荐网站', icon: 'addr.png' },
+					{ name: '向平台推荐网站', icon: 'quan.png' },
 					{ name: '历史推荐网站', icon: 'bank.png' },
 					{ name: '联系我们', icon: 'kefu.png' },
 					// { name: '向平台推荐网站', icon: 'momey.png' },
@@ -98,8 +98,9 @@ export default {
 			// uni.showToast({ title: this.orderTypeLise[index].name });
 		},
 		//用户点击列表项
-		toPage(list_i, li_i) {
-			uni.showToast({ title: this.severList[list_i][li_i].name });
+		goDetailPage(list_i, li_i) {
+			uni.navigateTo({ url: this.severList[list_i][li_i].urlname })
+			//uni.showToast({ title: this.severList[list_i][li_i].name });
 		}
 	}
 };
