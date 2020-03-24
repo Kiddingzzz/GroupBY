@@ -4,15 +4,15 @@
 			<view class="cu-list menu-avatar">
 				<view class="orderlist">
 					<view class="orderitem">
-						<image :src="value.pic"></image>
+						<image :src="value.imgHeard"></image>
 						<view class="desc">
-							<view class="name">{{value.name}}</view>
-							<view class="overtime">剩余时间{{value.overtime}}</view>
+							<view class="name">{{value.houseTitle}}</view>
+							<view class="overtime">剩余时间</view>
 						</view>
 					</view>
 					<view class="orderprice">
-						<view>76万</view>
-						<button class="cu-btn sm" style="width: 110upx;">取消团购</button>
+						<view>{{value.housePrice}}</view>
+						<button class="cu-btn sm" style="width: 110upx;" v-if="value.houseType==true" >取消团购</button>
 					</view>
 					<!-- <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
 					<view class="content flex-sub">

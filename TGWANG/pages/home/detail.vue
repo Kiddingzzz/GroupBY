@@ -14,7 +14,7 @@
 			</swiper>
 			<view v-if="double == 'Video'" class="swiper">
 				<view>
-					<video class="vid" id="myVideo" src="https://lpvideo-10011010.anjukestatic.com/lpvideo/1143330800377315330.mp4.f30.mp4?sign=c+icjfMSBDqpud1YkWQEYptUgwdhPTEwMDExMDEwJms9QUtJRDV4UDhscUtoSVd4eUpHbnJXd3NiY0xTRzJZRmJ2Zlp4JmU9MTU4NDQxMjY1MiZ0PTE1ODQ0MTIwNTImcj0zMzY2ODYwNTMmZj0mYj1scHZpZGVv"
+					<video class="vid" id="myVideo" src="https://lpvideo-10011010.anjukestatic.com/lpvideo/1143330800377315330.mp4.f30.mp4?sign=N+X+fiCyTdVncidEwaG08qyPY4NhPTEwMDExMDEwJms9QUtJRDV4UDhscUtoSVd4eUpHbnJXd3NiY0xTRzJZRmJ2Zlp4JmU9MTU4NDUwMTM3MSZ0PTE1ODQ1MDA3NzEmcj0yMDQ5MTU3NDEyJmY9JmI9bHB2aWRlbw=="
 					 controls></video>
 				</view>
 			</view>
@@ -83,7 +83,7 @@
 			<view class="fonts">
 				{{day}}天{{hour}}时{{min}}分{{second}}秒
 			</view>，还差1人</view>
-			<view class="btn1">参与拼团</view>
+			<view class="btn1" @click="togglePopup('center', 'image')">参与拼团</view>
 		</view>
 		<view class="btnCan" v-if="endTag != ''">
 			<view class="lgy">{{endTag}}</view>
@@ -91,17 +91,34 @@
 		<view class="bottom">
 			<view class="left">添加收藏</view>
 			<view class="right">
-				发起团购 
+				发起团购
 			</view>
 		</view>
+		<uni-popup ref="image" :type="type" :custom="true" :mask-click="false" @change="change">
+			<view class="uni-tip">
+				<view class="popImg" @click="cancel('image')">x</view>
+				<view class="uni-tip-title">参与团购</view>
+				<view class="uni-tip-content">仅剩3个名额,{{day}}天{{hour}}时{{min}}分{{second}}秒后结束</view>
+				<view class="uni-tip-group-button">
+					<!-- <view class="uni-tip-button" @click="cancel('tip')">取消</view> -->
+					<view class="uni-tip-button" @click="addTG()">发起拼团</view>
+				</view>
+			</view>
+		</uni-popup>
 	</view>
 </template>
 
 <script>
 	import amap from '../../components/amap-wx/lib/amap-wx.js'
+	import uniPopup from '@/components/uni-popup/uni-popup.vue'
 	export default {
+		components: {
+			uniPopup
+		},
 		data() {
 			return {
+				type: '',
+				show:false,
 				ast:['one-Sale','',''],
 				src: '',
 				double:'',
@@ -156,7 +173,6 @@
 			},350)
 		},
 		onLoad(options) {
-			console.log('options:'+JSON.stringify(options))
 			this.id = options.id;
 			this.houseInfer(this.id);
 			//时间计时
@@ -207,7 +223,7 @@
 				var res =await this.$http.get('api/cms/house/'+id+'/houseDetail');
 				console.log("详情数据:"+JSON.stringify(res));
 				this.items = res;
-				this.curStartTime = '2020-03-20 17:51:02';
+				this.curStartTime = '2020-03-29 17:51:02';
 				this.tagsItem= this.items.tags.replace(' ','').replace(/'/g, '').replace('[', '').replace(']', '').split(',');
 				if(this.items.vtImg =='onlyV'){
 					console.log(this.items.vtImg)
@@ -218,7 +234,56 @@
 				}
 				this.countTime()
 			},
+			async addTG(){
+				this.toast3Tap()
+				var data = {
+					Userid:'0B1A1866-0BD3-72EB-25E5-39F3973F72EB',
+					Houseid:this.id,
+				}
+				await this.$http.post('api/cms/houseOrder/houserOrder',data).then(res=>{
+						uni.hideToast()
+						this.$refs['image'].close()
+						this.toast2Tap()
+				})
+				
+			},
+			//发起参与拼团
+			togglePopup(type, open) {
+				switch (type) {
+					case 'top':
+						this.content = '顶部弹出 popup'
+						break
 			
+					case 'bottom':
+						this.content = '底部弹出 popup'
+						break
+					case 'center':
+						this.content = '居中弹出 popup'
+						break
+				}
+				this.type = type
+				this.$refs[open].open()
+			},
+			cancel(type) {
+				// if (type === 'tip') {
+				// 	this.show = false
+				// 	return
+				// }
+				this.$refs[type].close()
+			},
+			toast2Tap: function () {
+				uni.showToast({
+					title: "报名成功",
+					duration: 3000
+				})
+			},
+			toast3Tap: function () {
+				uni.showToast({
+					title: "loading",
+					icon: "loading",
+					duration: 2000
+				})
+			},
 			//时间到计时
 			countTime() {
 			  // 获取当前时间
@@ -275,7 +340,14 @@
 			durationChange(e) {
 				this.duration = e.target.value
 			},
-			
+			//提示
+			modalTap: function (e) {
+				uni.showModal({
+					content: "您已成功发起团购无需再次点击",
+					showCancel: false,
+					confirmText: "确定"
+				})
+			},
 			//切换选项卡
 			change(index){
 				this.double = index;
@@ -584,5 +656,49 @@
 	.uni-padding-wrap {
 		width: 550rpx;
 		padding: 0 100rpx;
+	}
+	.uni-tip {
+		padding: 15px;
+		width: 300px;
+		background: #fff;
+		box-sizing: border-box;
+		border-radius: 10px;
+	}
+	
+	.uni-tip-title {
+		text-align: center;
+		font-weight: bold;
+		font-size: 16px;
+		color: #333;
+	}
+	
+	.uni-tip-content {
+		padding: 15px;
+		font-size: 14px;
+		color: #666;
+	}
+	
+	.uni-tip-group-button {
+		margin-top: 10px;
+		display: flex;
+		background: #e02e24;
+		line-height: 29px;
+		border-radius: 5px;
+
+	}
+	
+	.uni-tip-button {
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		color: #fff;
+	}
+	
+	.popImg{
+		position: absolute;
+		right: 8px;
+		top: -4px;
+		font-weight: 600;
+
 	}
 </style>

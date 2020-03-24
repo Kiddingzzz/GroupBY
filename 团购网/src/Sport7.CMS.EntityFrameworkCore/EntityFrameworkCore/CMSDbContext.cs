@@ -4,7 +4,9 @@ using Sport7.AuditLogging.EntityFrameworkCore;
 using Sport7.CMS.Comments;
 using Sport7.CMS.Feedbacks;
 using Sport7.CMS.House;
+using Sport7.CMS.houseOrder;
 using Sport7.CMS.Posts;
+using Sport7.CMS.Receadress;
 using Sport7.CMS.Tagging;
 using Sport7.CMS.VoteOptions;
 using Sport7.CMS.Votes;
@@ -41,6 +43,9 @@ namespace Sport7.CMS.EntityFrameworkCore
         //public DbSet<Comment> Comments { get; set; }
 
         public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<HouseOrder> HouseOrder { get; set; }
+        
+        public DbSet<ReceAdress> ReceAdress { get; set; }
         public CMSDbContext(DbContextOptions<CMSDbContext> options) 
             : base(options)
         {
