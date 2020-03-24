@@ -223,7 +223,7 @@
 				var res =await this.$http.get('api/cms/house/'+id+'/houseDetail');
 				console.log("详情数据:"+JSON.stringify(res));
 				this.items = res;
-				this.curStartTime = '2020-03-20 17:51:02';
+				this.curStartTime = '2020-03-29 17:51:02';
 				this.tagsItem= this.items.tags.replace(' ','').replace(/'/g, '').replace('[', '').replace(']', '').split(',');
 				if(this.items.vtImg =='onlyV'){
 					console.log(this.items.vtImg)
@@ -237,20 +237,15 @@
 			async addTG(){
 				this.toast3Tap()
 				var data = {
-					userId:'0B1A1866-0BD3-72EB-25E5-39F3973F72EB',
-					houseInferId:this.id,
+					Userid:'0B1A1866-0BD3-72EB-25E5-39F3973F72EB',
+					Houseid:this.id,
 				}
-				var res = await this.$http.get('api/cms/house/tGNumberStatus',data)
-				if(res.fabuStatus == '已成功发起团购'){
-					uni.hideToast()
-					this.$refs['image'].close()
-					this.modalTap();
-				}
-				else{
-					uni.hideToast()
-					this.$refs['image'].close()
-					this.toast2Tap()
-				}
+				await this.$http.post('api/cms/houseOrder/houserOrder',data).then(res=>{
+						uni.hideToast()
+						this.$refs['image'].close()
+						this.toast2Tap()
+				})
+				
 			},
 			//发起参与拼团
 			togglePopup(type, open) {
