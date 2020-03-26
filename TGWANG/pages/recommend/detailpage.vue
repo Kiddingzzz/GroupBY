@@ -1,19 +1,19 @@
 <template>
     <view>
         <view class="banner">
-            <image class="banner-img" :src="banner.cover"></image>
-            <view class="banner-title">{{banner.title}}</view>
+            <image class="banner-img" :src="banner.headerImg"></image>
+            <view class="banner-title">{{banner.houseTitle}}</view>
         </view>
         <view class="article-meta">
-            <text class="article-author">{{banner.author_name}}</text>
+            <text class="article-author">{{banner.genereMange}}</text>
             <text class="article-text">发表于</text>
-            <text class="article-time">{{banner.published_at}}</text>
+            <text class="article-time">{{banner.pulishTime}}</text>
         </view>
         <view class="article-content">
-            <rich-text :nodes="htmlString"></rich-text>
+            <rich-text :nodes="banner.content"></rich-text>
         </view>
         <!-- #ifdef MP-WEIXIN -->
-        <ad v-if="htmlString" unit-id="adunit-01b7a010bf53d74e"></ad>
+        <ad v-if="banner.content" unit-id="adunit-01b7a010bf53d74e"></ad>
         <!-- #endif -->
     </view>
 </template>
@@ -35,32 +35,39 @@
         },
         onLoad(event) {
             // 目前在某些平台参数会被主动 decode，暂时这样处理。
-            try {
-                this.banner = JSON.parse(decodeURIComponent(event.detailDate));
-            } catch (error) {
-                this.banner = JSON.parse(event.detailDate);
-            }
-
-            this.getDetail();
-            uni.setNavigationBarTitle({
-                title: this.banner.title
-            });
+            // try {
+            //     this.banner = JSON.parse(decodeURIComponent(event.detailDate));
+            // } catch (error) {
+            //     this.banner = JSON.parse(event.detailDate);
+            // }
+			console.log(event.id)
+            this.getDetail(event.id);
+            
         },
         methods: {
-            getDetail() {
-                uni.request({
-                    url: 'https://unidemo.dcloud.net.cn/api/news/36kr/' + this.banner.post_id,
-                    success: (data) => {
-                        if (data.statusCode == 200) {
-                            this.htmlString = data.data.content.replace(/\\/g, "").replace(/<img/g,
-                                "<img style=\"display:none;\"");
-                        }
-                    },
-                    fail: () => {
-                        console.log('fail');
-                    }
-                })
-            }
+			async getDetail(id){
+				var res = await this.$http.get('api/cms/new/'+id+'/news')
+				console.log(JSON.stringify(res))
+				this.banner = res;
+				
+				uni.setNavigationBarTitle({
+				    title: this.banner.houseTitle
+				});
+			},
+            // getDetail() {
+            //     uni.request({
+            //         url: 'https://unidemo.dcloud.net.cn/api/news/36kr/' + this.banner.post_id,
+            //         success: (data) => {
+            //             if (data.statusCode == 200) {
+            //                 this.htmlString = data.data.content.replace(/\\/g, "").replace(/<img/g,
+            //                     "<img style=\"display:none;\"");
+            //             }
+            //         },
+            //         fail: () => {
+            //             console.log('fail');
+            //         }
+            //     })
+            // }
         }
     }
 </script>

@@ -5,6 +5,7 @@ using Sport7.CMS.Comments;
 using Sport7.CMS.Feedbacks;
 using Sport7.CMS.House;
 using Sport7.CMS.houseOrder;
+using Sport7.CMS.News;
 using Sport7.CMS.Posts;
 using Sport7.CMS.Receadress;
 using Sport7.CMS.Tagging;
@@ -27,6 +28,8 @@ namespace Sport7.CMS.EntityFrameworkCore
         public DbSet<HouseDetail> houseDetails { get; set; }
 
         public DbSet<PresalePermit> presalePermits { get; set; }
+
+        public DbSet<HouseNews> houseNews { get; set; }
 
         //public DbSet<Post> Posts { get; set; }
 

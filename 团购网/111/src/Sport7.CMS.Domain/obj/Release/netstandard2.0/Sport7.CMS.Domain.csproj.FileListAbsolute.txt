@@ -1,9 +1,0 @@
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\bin\Release\netstandard2.0\Sport7.CMS.Domain.deps.json
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\bin\Release\netstandard2.0\Sport7.CMS.Domain.dll
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\bin\Release\netstandard2.0\Sport7.CMS.Domain.pdb
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\obj\Release\netstandard2.0\Sport7.CMS.Domain.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\obj\Release\netstandard2.0\Sport7.CMS.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\obj\Release\netstandard2.0\Sport7.CMS.Domain.AssemblyInfoInputs.cache
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\obj\Release\netstandard2.0\Sport7.CMS.Domain.AssemblyInfo.cs
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\obj\Release\netstandard2.0\Sport7.CMS.Domain.dll
-C:\Users\Administrator\Desktop\ihome (1)\4.6.0\111\src\Sport7.CMS.Domain\obj\Release\netstandard2.0\Sport7.CMS.Domain.pdb

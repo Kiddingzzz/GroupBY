@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "楼盘参数",
-  "usingComponents": {
-    "sale-card": "/pages/home/components/sale-card"
-  }
-}
