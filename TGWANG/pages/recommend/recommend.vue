@@ -43,7 +43,7 @@
 			this.last_id = "";
 			this.getBanner();
 			this.maxR = this.maxR + 3
-			this.getList();
+			this.getNewsList();
 		},
 		onReachBottom() {
 			this.maxR = this.maxR + 5
