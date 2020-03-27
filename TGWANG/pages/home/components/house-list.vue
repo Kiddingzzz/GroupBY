@@ -45,7 +45,16 @@
 				tagsItem: []
 			}
 		},
+		activated() {
+			this.showlist()
+		},
 		computed: {},
+		methods: {
+			async showlist() {
+				this.$emit('hosehide')
+			},
+		},
+
 		mounted() {
 			this.tagsItem = this.value.tags.replace(' ', '').replace(/'/g, '').replace('[', '').replace(']', '').split(',');
 		},

@@ -109,9 +109,13 @@
 		</view> -->
 		<!-- 筛选列表 -->
 		<view></view>
+		<view>
+			<button class="button" type="primary" @click="togglePopup('top', 'popup')">顶部弹出 popup</button>
+		</view>
+		<uni-popup ref="showpopup" :type="type"><text class="popup-content">{{ content }}</text></uni-popup>
 		<!-- 组件列表 -->
 		<view>
-			<house-list v-for="(item,index) of list" :value="item" :key="index" v-on:click.native="goDetail(item.id,item.address)"></house-list>
+			<house-list v-for="(item,index) of list" :value="item" :key="index" v-on:click.native="goDetail(item.id)"></house-list>
 		</view>
 	</view>
 	</view>
@@ -121,28 +125,40 @@
 	import uniSearchBar from '@/components/uni-search-bar/uni-search-bar.vue'
 	import uniSection from '@/components/uni-section/uni-section.vue'
 	import houseList from '@/pages/home/components/house-list.vue'
+	import uniPopup from '@/components/uni-popup/uni-popup.vue'
+	import uniIcons from '@/components/uni-icons/uni-icons.vue'
 	export default {
 		components: {
 			uniSearchBar,
 			uniSection,
-			houseList
+			houseList,
+			uniPopup,
+			uniIcons
 		},
 		data() {
 			return {
 				list: [],
+				type:'',
+				context:'顶部弹 popup'
 				address:'',
 				latitude:0,
 				longitude:0,
 			}
 		},
+
 		onLoad() {
 			this.houseDetail();
 		},
 		methods: {
+			async houseshow() {
+				this.houseDetail();
+			},
 			async houseDetail() {
-				var res = await this.$http.get('api/cms/house/houseList')
-				console.log('res:' + JSON.stringify(res.items));
-				this.list = res.items;
+				await this.$http.get('api/cms/house/houseList?userid=' + '0B1A1866-0BD3-72EB-25E5-39F3973F72EB').then(res => {
+					this.list = res.items;
+				})
+
+
 			},
 			//详情页面
 			goDetail(id,address) {
@@ -169,13 +185,36 @@
 					})
 				}
 			
-			}
+			},
+			togglePopup(type, open) {
+
+				this.type = type
+				this.$nextTick(() => {
+					this.$refs['show' + open].open()
+				})
+			},
+			cancel(type) {
+				this.$refs['show' + type].close()
+			},
 		}
 	}
 </script>
 
 <style lang="less">
-	.dis-wrap{
+	.popup-content {
+		/* #ifndef APP-NVUE */
+		display: block;
+		/* #endif */
+		background-color: #fff;
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	.button {
+		flex: 1;
+		margin: 10px 0;
+	}
+        .dis-wrap{
 		position: relative;
 		height: 400upx;
 		width: 100%;
