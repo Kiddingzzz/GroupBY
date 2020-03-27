@@ -8,7 +8,12 @@
 		},{
 			"path": "pages/home/discount",
 			"style": {
-				"navigationBarTitleText": "优惠"
+				"navigationBarTitleText": "优惠活动"
+			}
+		},{
+			"path": "pages/home/handhouse",
+			"style": {
+				"navigationBarTitleText": "即将交房"
 			}
 		},
 		{

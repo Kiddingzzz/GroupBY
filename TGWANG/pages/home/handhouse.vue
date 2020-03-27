@@ -3,10 +3,25 @@
 		<view class="dis-wrap">
 			<image src="../../static/bg.jpg"></image>
 			<view class="masker"></view>
-			<view class="dis-tit">优惠活动</view>
-			<view class="dis-border"></view>
+			<view class="dis-tit">即将交房</view>
+			<!-- <view class="dis-border"></view> -->
 		</view>
-		<view class="discountlist"><discount-car v-for="(item, index) of discountlist" :value="item" :key="index"></discount-car></view>
+		<!-- <view class="discountlist"><discount-car v-for="(item, index) of discountlist" :value="item" :key="index"></discount-car></view> -->
+		<view class="handhouse-list">
+			<view class="handhouse-desc">
+				<image src="../../static/bg.jpg"></image>
+				<view class="handhouse-text">
+					<view class="txt">标题哦标题标题标题标题标题标题标题标题</view>
+					<view class="txt textcolor">详细地址详细地址详细地址详细地址详细地址详细地址</view>
+					<view class="tag"></view>
+					<view class="orange"><text class="price">6000.00</text>元/平方米起</view>
+				</view>
+			</view>
+			<view>
+				<view class="txt"><text>交房时间：</text>预计2020年3月30日5/6/7号楼交房</view>
+				<view v-if="isCeng != ''" class="txt"><text>交房楼栋：</text>南区高层5#,南区高层7#,南区高层6#</view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -18,6 +33,7 @@ export default {
 	},
 	data() {
 		return {
+			isCeng: "发发发",
 			discountlist: [
 				{ 
 					name: '标题标题',
@@ -48,6 +64,30 @@ export default {
 </script>
 
 <style lang="less">
+	.orange{
+		color: #ff5350;
+	}
+	.txt{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.textcolor{ color:#9aa0a6;font-size: 24upx;}
+	.handhouse-list{
+		display: flex;
+		flex-direction: column;
+		.handhouse-desc{
+			display: flex;
+			image{
+				width: 200upx;
+				height: 200upx;
+			}
+			.handhouse-text{
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
 	.dis-wrap{
 		position: relative;
 		height: 380upx;
