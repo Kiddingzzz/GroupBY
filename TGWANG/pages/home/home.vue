@@ -6,37 +6,32 @@
 		<view class="tips">
 			<view class="cantcgl">
 				<view>
-					<i class="iconfont icon-fangchan  imgs imgs1"></i>
-					<!-- <image class="imgs" src="../../static/房产.png"></image> -->
+					<image class="imgs" src="../../static/房产.png"></image>
 				</view>
-		     	<view>全部楼盘</view>
+				<view>全部楼盘</view>
 			</view>
 			<view class="cantcgl">
 				<view>
-					<i class="iconfont icon-shoulou imgs imgs2"></i>
-					<!-- <image class="imgs" src="../../static/房屋交易.png"></image> -->
+					<image class="imgs" src="../../static/房屋交易.png"></image>
 				</view>
 				<view>在售楼盘</view>
 			</view>
 			<view class="cantcgl">
 				<view>
-					<i class="iconfont icon-kaipan imgs imgs3"></i>
-					<!-- <image class="imgs" src="../../static/购房办理.png"></image> -->
+					<image class="imgs" src="../../static/购房办理.png"></image>
 				</view>
 				<view>已开盘</view>
 				<view class=""></view>
 			</view>
 			<view class="cantcgl">
 				<view>
-					<i class="iconfont icon-fangjia imgs imgs4"></i>
-					<!-- <image class="imgs" src="../../static/房子.png"></image> -->
+					<image class="imgs" src="../../static/房子.png"></image>
 				</view>
 				<view>低总价</view>
 			</view>
 			<view class="cantcgl">
 				<view>
-					<i class="iconfont icon-mianji imgs imgs5"></i>
-					<!-- <image class="imgs" src="../../static/租房.png"></image> -->
+					<image class="imgs" src="../../static/租房.png"></image>
 				</view>
 				<view>小面积</view>
 			</view>
@@ -50,7 +45,7 @@
 
 		<!-- 楼盘热榜  近银行 -->
 		<view class="hotTop">
-			<view class="loupan">
+			<view class="loupan" v-on:click.native="goNavdesc('discount')">
 				<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
 				 class="loupan"></image>
 				<view>楼盘热榜</view>
@@ -115,6 +110,15 @@
 				uni.navigateTo({
 					url: '/pages/home/detail?id=' + id
 				})
+			},
+			//nav跳转详情
+			goNavdesc(name) {
+				if (name == 'discount') {
+					uni.navigateTo({
+						url: '/pages/home/discount'
+					})
+				}
+
 			}
 		}
 	}
@@ -152,22 +156,27 @@
 					line-height: 90rpx;
 					border-radius: 20rpx;
 				}
-				.imgs1{
-					background: linear-gradient(60deg, #11b942,#39e566);
+
+				.imgs1 {
+					background: linear-gradient(60deg, #11b942, #39e566);
 				}
-				.imgs2{
-					background: linear-gradient(60deg, #ff6461,#ff7c73);
+
+				.imgs2 {
+					background: linear-gradient(60deg, #ff6461, #ff7c73);
 				}
-				.imgs3{
-					background: linear-gradient(45deg, #ff7f0e,#ffa04b);
+
+				.imgs3 {
+					background: linear-gradient(45deg, #ff7f0e, #ffa04b);
 				}
-				.imgs4{
-					background: linear-gradient(45deg, #646cf8,#9297fe);
+
+				.imgs4 {
+					background: linear-gradient(45deg, #646cf8, #9297fe);
 				}
-				.imgs5{
-					background: linear-gradient(45deg, #3383f5,#55a7f4);
-				}				
-				
+
+				.imgs5 {
+					background: linear-gradient(45deg, #3383f5, #55a7f4);
+				}
+
 			}
 		}
 
@@ -188,11 +197,17 @@
 			.loupan {
 				height: 172upx;
 				width: 100%;
+				display: flex;
+				position: relative;
 
 				view {
 					font-size: 18px;
 					text-align: center;
-					margin-top: -60px;
+					position: absolute;
+					z-index: 99;
+					margin: 0 auto;
+					width: 100%;
+					line-height: 92px;
 					color: #FFFFFF;
 					font-weight: 700;
 				}
@@ -200,12 +215,20 @@
 
 			.hhd {
 				width: 100%;
+				display: flex;
+				position: relative;
 
 				view {
 					color: #FFFFFF;
 					font-size: 18px;
 					text-align: center;
-					margin-top: -60px;
+					position: absolute;
+					z-index: 99;
+					margin: 0 auto;
+					width: 100%;
+					line-height: 92px;
+					color: #FFFFFF;
+					font-weight: 700;
 					font-weight: 700;
 				}
 
@@ -215,11 +238,19 @@
 				margin-left: 10upx;
 				height: 172upx;
 				width: 100%;
+				display: flex;
+				position: relative;
 
 				view {
 					font-size: 18px;
 					text-align: center;
-					margin-top: -60px;
+					color: #FFFFFF;
+					font-weight: 700;
+					position: absolute;
+					z-index: 99;
+					margin: 0 auto;
+					width: 100%;
+					line-height: 92px;
 					color: #FFFFFF;
 					font-weight: 700;
 				}

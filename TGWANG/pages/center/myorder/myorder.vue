@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<order-list v-for="(item,index) of orderList" :value="item" :key="index"></order-list>
+		<order-list v-for="(item,index) of orderList" :value="item" :key="index" @hideModalor="getHideModalor"></order-list>
 	</view>
 </template>
 
@@ -14,36 +14,40 @@
 			return {
 				orderList: [
 					// {
-				// 		name: '新楼盘开业',
-				// 		rice: '70',
-				// 		overtime: '23:28:22.3',
-				// 		pic: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg'
-				// 	},
-				// 	{
-				// 		name: '新楼盘开业，公交便利环境优美公交便利环境优美',
-				// 		rice: '70',
-				// 		overtime: '23:28:22.3',
-				// 		pic: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg'
-				// 	},
-				// 	{
-				// 		name: '新楼盘开业，公交便利环境优美公交便利环境优美',
-				// 		rice: '70',
-				// 		overtime: '23:28:22.3',
-				// 		pic: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg'
-				// 	}
+					// 		name: '新楼盘开业',
+					// 		rice: '70',
+					// 		overtime: '23:28:22.3',
+					// 		pic: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg'
+					// 	},
+					// 	{
+					// 		name: '新楼盘开业，公交便利环境优美公交便利环境优美',
+					// 		rice: '70',
+					// 		overtime: '23:28:22.3',
+					// 		pic: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg'
+					// 	},
+					// 	{
+					// 		name: '新楼盘开业，公交便利环境优美公交便利环境优美',
+					// 		rice: '70',
+					// 		overtime: '23:28:22.3',
+					// 		pic: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg'
+					// 	}
 				],
 
 			};
 		},
-		onLoad(){
+		onLoad() {
 			this.GetOrderList();
 		},
 		methods: {
 			async GetOrderList() {
-				var res= await this.$http.get('api/cms/houseOrder/houseOrderlist' + '?userid=' + '0B1A1866-0BD3-72EB-25E5-39F3973F72EB')
-				this.orderList=res.items
-				console.log(JSON.stringify(this.orderList))
+				var res = await this.$http.get('api/cms/houseOrder/houseOrderlist' + '?userid=' +
+					'0B1A1866-0BD3-72EB-25E5-39F3973F72EB')
+				this.orderList = res.items
+
 			},
+			getHideModalor() {
+				this.GetOrderList();
+			}
 		},
 		computed: {
 

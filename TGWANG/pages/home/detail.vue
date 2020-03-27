@@ -1,7 +1,8 @@
 <template>
 	<view class="card">
 		<view class="uni-margin-wrap">
-			<swiper @click="goImgDetail()" v-if="double == 'ImgList'" class="swiper" circular :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
+			<swiper @click="goImgDetail()" v-if="double == 'ImgList'" class="swiper" circular :indicator-dots="indicatorDots"
+			 :autoplay="autoplay" :interval="interval" :duration="duration">
 				<swiper-item>
 					<view class="swiper-item uni-bg-red">A</view>
 				</swiper-item>
@@ -10,7 +11,7 @@
 				</swiper-item>
 				<swiper-item>
 					<view class="swiper-item uni-bg-blue">C</view>
-				</swiper-item>
+				</swiper-item> 
 			</swiper>
 			<view v-if="double == 'Video'" class="swiper">
 				<view>
@@ -18,10 +19,12 @@
 					 controls></video>
 				</view>
 			</view>
-			
+
 			<view class="tabbar">
-				<view v-if="items.vtImg != 'onlyV' && items.vtImg == 'onlyQ'" :class="['bors', double == 'AllVideo' ? 'active' : '']" @click="change('AllVideo')">全景</view>
-				<view v-if="items.vtImg == 'onlyV' && items.vtImg != 'onlyQ'" :class="['bors', double == 'Video' ? 'active' : '']" @click="change('Video')">视频</view>
+				<view v-if="items.vtImg != 'onlyV' && items.vtImg == 'onlyQ'" :class="['bors', double == 'AllVideo' ? 'active' : '']"
+				 @click="change('AllVideo')">全景</view>
+				<view v-if="items.vtImg == 'onlyV' && items.vtImg != 'onlyQ'" :class="['bors', double == 'Video' ? 'active' : '']"
+				 @click="change('Video')">视频</view>
 				<view :class="['bors', double == 'ImgList' ? 'active' : '']" @click="change('ImgList')">图片</view>
 			</view>
 		</view>
@@ -65,7 +68,7 @@
 				<view class="ph1">
 					177&nbsp;5494&nbsp;8968
 				</view>
-				
+
 				<view class="ph2">
 					安全通话隐藏真实号码，致电售楼处了解更多信息
 				</view>
@@ -80,9 +83,9 @@
 		</view>
 		<view class="btnCan" v-if="endTag == ''">
 			<view class="shijian">剩余
-			<view class="fonts">
-				{{day}}天{{hour}}时{{min}}分{{second}}秒
-			</view>，还差1人</view>
+				<view class="fonts">
+					{{day}}天{{hour}}时{{min}}分{{second}}秒
+				</view>，还差1人</view>
 			<view class="btn1" @click="togglePopup('center', 'image')">参与拼团</view>
 		</view>
 		<view class="btnCan" v-if="endTag != ''">
@@ -118,19 +121,19 @@
 		data() {
 			return {
 				type: '',
-				show:false,
-				ast:['one-Sale','',''],
+				show: false,
+				ast: ['one-Sale', '', ''],
 				src: '',
-				double:'',
-				endTag:'',
-				curStartTime:'2019-07-31 08:00:00',
+				double: '',
+				endTag: '',
+				curStartTime: '2019-07-31 08:00:00',
 				day: '0',
 				hour: '00',
 				min: '00',
 				second: '00',
-				id:'',
-				tagsItem:[],
-				items:{},
+				id: '',
+				tagsItem: [],
+				items: {},
 				background: ['color1', 'color2', 'color3'],
 				indicatorDots: false,
 				autoplay: true,
@@ -168,15 +171,15 @@
 			// #ifndef MP-ALIPAY || MP-TOUTIAO
 			this.videoContext = uni.createVideoContext('myVideo')
 			// #endif
-			setTimeout(()=>{
+			setTimeout(() => {
 				this.showVideo = true
-			},350)
+			}, 350)
 		},
 		onLoad(options) {
 			this.id = options.id;
 			this.houseInfer(this.id);
 			//时间计时
-			
+			this.GetIslist(this.id)
 			var that = this;
 			var amapFile = require('../../components/amap-wx/lib/amap-wx.js');
 			var amapPlugin = new amapFile.AMapWX({
@@ -219,33 +222,46 @@
 			})
 		},
 		methods: {
-			async houseInfer(id){
-				var res =await this.$http.get('api/cms/house/'+id+'/houseDetail');
-				console.log("详情数据:"+JSON.stringify(res));
+			async GetIslist(id) {
+				const data = {
+					houseid: id,
+					userid: '0B1A1866-0BD3-72EB-25E5-39F3973F72EB'
+				}
+				var res = await this.$http.get('api/cms/houseOrder/houseIs', data)
+				console.log(JSON.stringify(res.items))
+				res = res.items.length;
+				if (res > 0) {
+					this.endTag = "您已参与拼团"
+				}
+			},
+			async houseInfer(id) {
+				var res = await this.$http.get('api/cms/house/' + id + '/houseDetail');
+				console.log("详情数据:" + JSON.stringify(res));
 				this.items = res;
 				this.curStartTime = '2020-03-29 17:51:02';
-				this.tagsItem= this.items.tags.replace(' ','').replace(/'/g, '').replace('[', '').replace(']', '').split(',');
-				if(this.items.vtImg =='onlyV'){
+				this.tagsItem = this.items.tags.replace(' ', '').replace(/'/g, '').replace('[', '').replace(']', '').split(',');
+				if (this.items.vtImg == 'onlyV') {
 					console.log(this.items.vtImg)
 					this.change('Video')
 				}
-				if(this.items.vtImg == 'onlyQ'){
+				if (this.items.vtImg == 'onlyQ') {
 					this.change('AllVideo')
 				}
 				this.countTime()
 			},
-			async addTG(){
+			async addTG() {
 				this.toast3Tap()
 				var data = {
-					Userid:'0B1A1866-0BD3-72EB-25E5-39F3973F72EB',
-					Houseid:this.id,
+					Userid: '0B1A1866-0BD3-72EB-25E5-39F3973F72EB',
+					Houseid: this.id,
 				}
-				await this.$http.post('api/cms/houseOrder/houserOrder',data).then(res=>{
-						uni.hideToast()
-						this.$refs['image'].close()
-						this.toast2Tap()
+				await this.$http.post('api/cms/houseOrder/houserOrder', data).then(res => {
+					uni.hideToast()
+					this.$refs['image'].close()
+					this.toast2Tap()
+					this.GetIslist(this.id)
 				})
-				
+
 			},
 			//发起参与拼团
 			togglePopup(type, open) {
@@ -253,7 +269,7 @@
 					case 'top':
 						this.content = '顶部弹出 popup'
 						break
-			
+
 					case 'bottom':
 						this.content = '底部弹出 popup'
 						break
@@ -271,13 +287,13 @@
 				// }
 				this.$refs[type].close()
 			},
-			toast2Tap: function () {
+			toast2Tap: function() {
 				uni.showToast({
 					title: "报名成功",
 					duration: 3000
 				})
 			},
-			toast3Tap: function () {
+			toast3Tap: function() {
 				uni.showToast({
 					title: "loading",
 					icon: "loading",
@@ -286,41 +302,41 @@
 			},
 			//时间到计时
 			countTime() {
-			  // 获取当前时间
-			  let date = new Date()
-			  let now = date.getTime()
-			  // 设置截止时间
-			  let endDate = new Date(this.curStartTime) // this.curStartTime需要倒计时的日期
-			  let end = endDate.getTime()
-			  // 时间差
-			  let leftTime = end - now;
-			  // 定义变量 d,h,m,s保存倒计时的时间
-			  if (leftTime >= 0) {
-			    // 天
-			    this.day = Math.floor(leftTime / 1000 / 60 / 60 / 24)
-			    // 时
-			    let h = Math.floor(leftTime / 1000 / 60 / 60 % 24)
-			    this.hour = h < 10 ? '0' + h : h
-			    // 分
-			    let m = Math.floor(leftTime / 1000 / 60 % 60)
-			    this.min = m < 10 ? '0' + m : m
-			    // 秒
-			    let s = Math.floor(leftTime / 1000 % 60)
-			    this.second = s < 10 ? '0' + s : s
-			  } else {
-			    this.day = 0
-			    this.hour = '00'
-			    this.min = '00'
-			    this.second = '00'
-			  }
-			  // 等于0的时候不调用
-			  if (Number(this.hour) === 0 && Number(this.day) === 0 && Number(this.min) === 0 && Number(this.second) === 0) {
-				  this.endTag = '拼团时间已截止';
-			    return
-			  } else {
-			  // 递归每秒调用countTime方法，显示动态时间效果,
-			    setTimeout(this.countTime, 1000)
-			  }
+				// 获取当前时间
+				let date = new Date()
+				let now = date.getTime()
+				// 设置截止时间
+				let endDate = new Date(this.curStartTime) // this.curStartTime需要倒计时的日期
+				let end = endDate.getTime()
+				// 时间差
+				let leftTime = end - now;
+				// 定义变量 d,h,m,s保存倒计时的时间
+				if (leftTime >= 0) {
+					// 天
+					this.day = Math.floor(leftTime / 1000 / 60 / 60 / 24)
+					// 时
+					let h = Math.floor(leftTime / 1000 / 60 / 60 % 24)
+					this.hour = h < 10 ? '0' + h : h
+					// 分
+					let m = Math.floor(leftTime / 1000 / 60 % 60)
+					this.min = m < 10 ? '0' + m : m
+					// 秒
+					let s = Math.floor(leftTime / 1000 % 60)
+					this.second = s < 10 ? '0' + s : s
+				} else {
+					this.day = 0
+					this.hour = '00'
+					this.min = '00'
+					this.second = '00'
+				}
+				// 等于0的时候不调用
+				if (Number(this.hour) === 0 && Number(this.day) === 0 && Number(this.min) === 0 && Number(this.second) === 0) {
+					this.endTag = '拼团时间已截止';
+					return
+				} else {
+					// 递归每秒调用countTime方法，显示动态时间效果,
+					setTimeout(this.countTime, 1000)
+				}
 			},
 			markertap() {
 				for (var i = 0; i < this.markers.length; i++) {
@@ -341,7 +357,7 @@
 				this.duration = e.target.value
 			},
 			//提示
-			modalTap: function (e) {
+			modalTap: function(e) {
 				uni.showModal({
 					content: "您已成功发起团购无需再次点击",
 					showCancel: false,
@@ -349,22 +365,22 @@
 				})
 			},
 			//切换选项卡
-			change(index){
+			change(index) {
 				this.double = index;
-				if(this.double == 'video'){
-					
+				if (this.double == 'video') {
+
 				}
 			},
-			
-			goInfer(){
+
+			goInfer() {
 				uni.navigateTo({
-					url:'/pages/home/loupanParameters?id='+this.id
+					url: '/pages/home/loupanParameters?id=' + this.id
 				})
 			},
-			
-			goImgDetail(){
+
+			goImgDetail() {
 				uni.navigateTo({
-					url:'/pages/home/Img/ImgCenter?id='+this.id
+					url: '/pages/home/Img/ImgCenter?id=' + this.id
 				})
 			},
 		}
@@ -381,8 +397,8 @@
 	.card {
 		display: flex;
 		flex-flow: column;
-		
-		.tabbar{
+
+		.tabbar {
 			height: 20px;
 			line-height: 20px;
 			top: 240px;
@@ -395,25 +411,28 @@
 			left: 0;
 			right: 0;
 
-			.bors{
+			.bors {
 				width: 50px;
 				color: #FFFFFF;
 				border-radius: 100px;
 				text-align: center;
 				font-size: 13px;
 				margin-right: 5px;
-				background: hsla(0,0%,100%,.8);
-				
-				
+				background: hsla(0, 0%, 100%, .8);
+
+
 			}
-			.bors.active{
+
+			.bors.active {
 				background: #3cb950;
 			}
-			.active{
+
+			.active {
 				background: #3cb950;
 			}
-			
+
 		}
+
 		.detail-Cards {
 			margin: -30px 10px 20px;
 			font-size: 1.5rem;
@@ -453,8 +472,8 @@
 					color: #828890;
 					padding: 3px 5px !important;
 					background: #f3f5f7;
-					
-					
+
+
 				}
 			}
 
@@ -546,7 +565,8 @@
 			margin: 0upx 20upx;
 			margin-bottom: 80px;
 		}
-		.btnCan{
+
+		.btnCan {
 			width: 100%;
 			position: fixed;
 			bottom: 36px;
@@ -560,21 +580,22 @@
 			justify-content: space-around;
 			background: #fff5b2;
 			align-items: center;
-			
-			.lgy{
+
+			.lgy {
 				font-weight: 700;
 				font-size: 32upx;
 			}
-			.shijian{
+
+			.shijian {
 				display: flex;
 				flex-direction: row;
-				
-				.fonts{
+
+				.fonts {
 					color: red;
 				}
 			}
-			
-			.btn1{
+
+			.btn1 {
 				margin-top: 2px;
 				width: 68px;
 				height: 28px;
@@ -583,8 +604,9 @@
 				text-align: center;
 				border-radius: 2px;
 			}
-			
+
 		}
+
 		.bottom {
 			width: 100%;
 			position: fixed;
@@ -599,6 +621,7 @@
 			font-size: 28upx;
 			color: #fff;
 			z-index: 99999;
+
 			.right {
 				height: 60px;
 				text-align: center;
@@ -614,11 +637,13 @@
 			}
 		}
 	}
-	.vid{
+
+	.vid {
 		width: 100%;
 		height: 268px;
 
 	}
+
 	.uni-margin-wrap {
 		width: 100%;
 		height: 540upx;
@@ -650,13 +675,16 @@
 		position: absolute;
 		right: 20rpx;
 	}
+
 	.tab-body {
 		padding: -10px;
 	}
+
 	.uni-padding-wrap {
 		width: 550rpx;
 		padding: 0 100rpx;
 	}
+
 	.uni-tip {
 		padding: 15px;
 		width: 300px;
@@ -664,20 +692,20 @@
 		box-sizing: border-box;
 		border-radius: 10px;
 	}
-	
+
 	.uni-tip-title {
 		text-align: center;
 		font-weight: bold;
 		font-size: 16px;
 		color: #333;
 	}
-	
+
 	.uni-tip-content {
 		padding: 15px;
 		font-size: 14px;
 		color: #666;
 	}
-	
+
 	.uni-tip-group-button {
 		margin-top: 10px;
 		display: flex;
@@ -686,15 +714,15 @@
 		border-radius: 5px;
 
 	}
-	
+
 	.uni-tip-button {
 		width: 100%;
 		text-align: center;
 		font-size: 15px;
 		color: #fff;
 	}
-	
-	.popImg{
+
+	.popImg {
 		position: absolute;
 		right: 8px;
 		top: -4px;

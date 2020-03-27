@@ -1,7 +1,7 @@
 <template>
 	<view class="address">
 		<view class="addresslist">
-			<view class="list caozuo" >
+			<view class="list caozuo">
 				<view class="def">
 					{{ value.recePeople }}，{{ value.receTel }}
 				</view>
@@ -10,10 +10,13 @@
 				</view>
 
 			</view>
-			<view class="list">{{ value.adress[0] + ' ' + value.adress[1] + ' ' + value.adress[2] + ' ' }}{{ value.detAdress }}</view>
+			<view class="list">{{ value.adress[0] + ' ' + value.adress[1] + ' ' + value.adress[2] + ' ' }}</view>
+			<view class="list">{{ value.detAdress }}</view>
+			
+			
 			<view class="list caozuo">
 				<view class="def">
-					<view class="tap1" @click="Default" v-if="value.defaultAdress==false">设为默认并使用</view>
+					<view class="tap1" @click="DefaultOk(value.id)" v-if="value.defaultAdress==false">设为默认并使用</view>
 
 				</view>
 				<view>
@@ -50,54 +53,70 @@
 		},
 
 		methods: {
-			async DeleAdress(){
-				await this.$http.post('api/cms/reAdress/deleAdress/'+id+'').then(res=>{
+			async DeleAdress() {
+				await this.$http.post('api/cms/receAdressAppSerice/deleAdress' + '?adressid=' + this.value.id).then(res => {
 					this.toast2Tap();
-					this.$emit("DeleteValue",this.value.id)
+					this.$emit("DeleteValue", this.value.id)
 				})
-					
+
 			},
-			toast2Tap: function () {
+			toast2Tap: function() {
 				uni.showToast({
 					title: "删除成功！！！",
 					duration: 1500
 				})
 			},
 			showModal(item) {
-				
+
 				this.addressitem = item;
 				this.isShow = true;
 			},
 			async getHideModal(data) {
-				if(data==false){
+				if (data == false) {
 					this.isShow = false;
 					return;
-				}
-				else{
+				} else {
 					this.isShow = false;
-					var adress=''
-					for(let i=0;i<data.adress.length;i++){
-						if(adress=='')
-							adress=data.adress[i];
+					var adress = ''
+					for (let i = 0; i < data.adress.length; i++) {
+						if (adress == '')
+							adress = data.adress[i];
 						else
-						  adress=adress+','+data.adress[i];
+							adress = adress + ',' + data.adress[i];
 					}
-					const list={
-						id:data.id,
-						recePeople:data.recePeople,
-						receTel:data.receTel,
-						adress:adress,
-						detAdress:data.detAdress
+					const list = {
+						id: data.id,
+						recePeople: data.recePeople,
+						receTel: data.receTel,
+						adress: adress,
+						detAdress: data.detAdress
 					};
-					await this.$http.post('api/cms/reAdress/modifyAdress',list).then(res=>{
-						this.$emit("DeleteValue",this.value.id)
+					await this.$http.post('api/cms/receAdressAppSerice/modifyAdress', list).then(res => {
+						this.toast2TapOk()
+						this.$emit("DeleteValue", this.value.id)
 					})
 				}
-				
+
 			},
-			radioChange(e) {
-				console.log(this.value.isDefault)
+			toast2TapOk: function() {
+				uni.showToast({
+					title: "添加成功！！！",
+					duration: 1500
+				})
+			},
+			async DefaultOk(id) {
+				const list = {
+					id: id
+				}
+				await this.$http.post('api/cms/receAdressAppSerice/modifyDefault', list).then(res => {
+					uni.showToast({
+						title: "设置成功！！",
+						duration: 1500
+					})
+					this.$emit("DeleteValue", this.value.id)
+				})
 			}
+
 		},
 		computed: {}
 	};
