@@ -15,7 +15,7 @@
 				<uni-icons color="#999999" class="" size="24" type="clear" />
 			</view>
 		</view>
-		<text @click="cancel" class="uni-searchbar__cancel" v-if="cancelButton ==='always' || show && cancelButton ==='auto'">{{cancelText}}</text>
+		<!-- <text @click="cancel" class="uni-searchbar__cancel" v-if="cancelButton ==='always' || show && cancelButton ==='auto'">{{cancelText}}</text> -->
 	</view>
 </template>
 
@@ -72,7 +72,7 @@
 			},
 			bgColor: {
 				type: String,
-				default: "#F8F8F8"
+				default: "rgba(255,255,255,0.2)"
 			},
 			maxlength: {
 				type: [Number, String],
@@ -143,8 +143,8 @@
 		/* #endif */
 		flex-direction: row;
 		position: relative;
-		padding: 16rpx;
-		background-color: #ffffff;
+		/* padding: 16rpx; */
+		/* background-color: #ffffff; */
 	}
 
 	.uni-searchbar__box {
