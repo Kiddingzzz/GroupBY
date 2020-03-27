@@ -1,8 +1,7 @@
 <template>
 	<view class="card">
 		<view class="uni-margin-wrap">
-			<swiper @click="goImgDetail()" v-if="double == 'ImgList'" class="swiper" circular :indicator-dots="indicatorDots"
-			 :autoplay="autoplay" :interval="interval" :duration="duration">
+			<swiper @click="goImgDetail()" v-if="double == 'ImgList'" class="swiper" circular :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
 				<swiper-item>
 					<view class="swiper-item uni-bg-red">A</view>
 				</swiper-item>
@@ -68,7 +67,7 @@
 				<view class="ph1">
 					177&nbsp;5494&nbsp;8968
 				</view>
-
+				
 				<view class="ph2">
 					安全通话隐藏真实号码，致电售楼处了解更多信息
 				</view>
@@ -77,7 +76,7 @@
 		<view class="maps">
 			<view style="font-weight:700;margin-bottom:5px;">周边配套</view>
 			<view class="page-section page-section-gap">
-				<map :longitude="longitude" :latitude="latitude" :show-location="showLocation" scale="14" :markers="markers"
+				<map :longitude="longitude" :latitude="latitude" show-location="true" scale="14" :markers="markers"
 				 @markertap="makertap()"></map>
 			</view>
 		</view>
@@ -141,11 +140,12 @@
 				duration: 500,
 				amapPlugin: null,
 				key: 'a93eba2f3c61d2468a451b83bf662377',
-				markers: [{}],
+				markers: [],
 				poisdatas: [{}, {}, {}],
 				title: 'map',
-				latitude: 29.82,
-				longitude: 106.41,
+				latitude: 39.909,
+				longitude: 116.39742,
+				AddressValue:'',
 				covers: [{
 					latitude: 30.208487,
 					longitude: 120.21202,
@@ -155,7 +155,8 @@
 					// #ifndef APP-PLUS
 					iconPath: '../../../static/location.png',
 					// #endif
-				}, {
+				} 
+				,{
 					latitude: 30.208487,
 					longitude: 120.21202,
 					// #ifdef APP-PLUS
@@ -164,7 +165,8 @@
 					// #ifndef APP-PLUS
 					iconPath: '../../../static/location.png',
 					// #endif
-				}]
+				}
+				],
 			}
 		},
 		onReady: function(res) {
@@ -176,7 +178,10 @@
 			}, 350)
 		},
 		onLoad(options) {
+			console.log(options)
 			this.id = options.id;
+			this.latitude = options.langitude;
+			this.longitude = options.latitude;
 			this.houseInfer(this.id);
 			//时间计时
 			this.GetIslist(this.id)
@@ -212,8 +217,8 @@
 						})
 					})
 					that.markers = markers_new;
-					// console.log("markers:" + JSON.stringify(that.markers))
-					// console.log("data", JSON.stringify(that.poisdatas));
+					
+					console.log("markers:" + JSON.stringify(that.markers))
 				},
 				fail: function(info) {
 					//失败回调

@@ -78,10 +78,9 @@
 		</view>
 		<!-- 筛选列表 -->
 		<view></view>
-
 		<!-- 组件列表 -->
 		<view>
-			<house-list v-for="(item,index) of list" :value="item" :key="index" v-on:click.native="goDetail(item.id)"></house-list>
+			<house-list v-for="(item,index) of list" :value="item" :key="index" v-on:click.native="goDetail(item.id,item.address)"></house-list>
 		</view>
 	</view>
 </template>
@@ -99,6 +98,9 @@
 		data() {
 			return {
 				list: [],
+				address:'',
+				latitude:0,
+				longitude:0,
 			}
 		},
 		onLoad() {
@@ -111,10 +113,17 @@
 				this.list = res.items;
 			},
 			//详情页面
-			goDetail(id) {
-				uni.navigateTo({
-					url: '/pages/home/detail?id=' + id
-				})
+			goDetail(id,address) {
+				let that = this;
+				uni.request({
+					url:'http://restapi.amap.com/v3/geocode/geo?key=a6b206443fb3a4db7cb605744f8f6f3b&address='+address+'&city=重庆',
+					method:'GET'
+				}).then(res => {
+						that.latitude = res[1].data.geocodes[0].location.split(',')[0]
+						that.longitude = res[1].data.geocodes[0].location.split(',')[1]
+						uni.navigateTo({
+							url: '/pages/home/detail?id=' + id+'&latitude='+that.latitude+'&langitude='+that.longitude
+						})
 			},
 			//nav跳转详情
 			goNavdesc(name){
