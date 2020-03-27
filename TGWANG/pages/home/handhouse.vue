@@ -1,60 +1,44 @@
 <template>
-	<view>
+	<view class="bg">
 		<view class="dis-wrap">
-			<image src="../../static/bg.jpg"></image>
+			<image class="imgtop" src="../../static/bg.jpg"></image>
 			<view class="masker"></view>
 			<view class="dis-tit">即将交房</view>
 			<!-- <view class="dis-border"></view> -->
 		</view>
-		<!-- <view class="discountlist"><discount-car v-for="(item, index) of discountlist" :value="item" :key="index"></discount-car></view> -->
-		<view class="handhouse-list">
-			<view class="handhouse-desc">
-				<image src="../../static/bg.jpg"></image>
-				<view class="handhouse-text">
-					<view class="txt">标题哦标题标题标题标题标题标题标题标题</view>
-					<view class="txt textcolor">详细地址详细地址详细地址详细地址详细地址详细地址</view>
-					<view class="tag"></view>
-					<view class="orange"><text class="price">6000.00</text>元/平方米起</view>
-				</view>
-			</view>
-			<view>
-				<view class="txt"><text>交房时间：</text>预计2020年3月30日5/6/7号楼交房</view>
-				<view v-if="isCeng != ''" class="txt"><text>交房楼栋：</text>南区高层5#,南区高层7#,南区高层6#</view>
-			</view>
+		<view class="handhouselist">
+			<view class="note">03月01日-03月31日，预计重庆30个楼盘即将交房，项目主要集中在巴南、大渡口、九龙坡等区域</view>
+			<handhouse-car v-for="(item, index) of handhouselist" :value="item" :key="index"></handhouse-car>
 		</view>
 	</view>
 </template>
 
 <script>
-import discountCar from '@/pages/home/components/discount-card.vue';
+import handhouseCar from '@/pages/home/components/handhouse-car.vue';
 export default {
 	components: {
-		discountCar
+		handhouseCar
 	},
 	data() {
 		return {
 			isCeng: "发发发",
-			discountlist: [
+			handhouselist: [
 				{ 
-					name: '标题标题',
-					time: '10天8时9分10秒',
-					people: '30',
-					pic: require('../../static/bg.jpg'),
-					price: '5700',
-					squre: '80-82',
-					xiaoquname: '小区名',
-					quyu: '重庆-渝北'
+					name: '标题标题标题标题标题标题标题标题标题标题标题标题',
+					pics: require('../../static/bg.jpg'),
+					price: '6700',
+					address: '详细地址详细地址详细地址详细地址详细地址详细地址详细地址',
+					handtime: '预计2020年3月30日5/6/7号楼交房',
+					handloudong: '南区高层5#,南区高层7#,南区高层6#',
 				},
 				{
-					name: '标题标题',
-					time: '10天8时9分10秒',
-					people: '30',
-					pic: require('../../static/bg.jpg'),
-					price: '5700',
-					squre: '80-82',
-					xiaoquname: '小区名',
-					quyu: '重庆-渝北'
-				}
+					name: '标题标题标题标题标题标题标题标题标题标题标题标题',
+					pics: require('../../static/bg.jpg'),
+					price: '6700',
+					address: '详细地址详细地址详细地址详细地址详细地址详细地址详细地址',
+					handtime: '预计2020年3月30日5/6/7号楼交房',
+					handloudong: '南区高层5#,南区高层7#,南区高层6#',
+				},
 			]
 		};
 	},
@@ -64,38 +48,13 @@ export default {
 </script>
 
 <style lang="less">
-	.orange{
-		color: #ff5350;
-	}
-	.txt{
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-	.textcolor{ color:#9aa0a6;font-size: 24upx;}
-	.handhouse-list{
-		display: flex;
-		flex-direction: column;
-		.handhouse-desc{
-			display: flex;
-			image{
-				width: 200upx;
-				height: 200upx;
-			}
-			.handhouse-text{
-				display: flex;
-				flex-direction: column;
-			}
-		}
-	}
 	.dis-wrap{
 		position: relative;
-		height: 380upx;
+		height: 300upx;
 		width: 100%;
-		image{
+		.imgtop{
 			width: 100%;
 			height: 300upx;
-			height: 380upx;
 			position: absolute;
 			z-index: -2;
 			top: 0;
@@ -124,11 +83,21 @@ export default {
 			bottom: 0;
 		}
 	}
-	.discountlist{
-		margin-top: -150upx;
+	.handhouselist{
+		background: #fff;
+		padding: 30upx;
 		position: absolute;
 		z-index: 99;
 		width: 100%;
-
+		.note{
+			width: 100%;
+			background: #fff;
+			margin-top: -80upx;
+			padding: 20upx 30upx;
+			box-shadow: 0 8upx 20upx rgba(131,134,143,0.2);
+			border-radius: 8upx;
+			margin-bottom: 20upx;
+			line-height: 48upx;
+		}
 	}
 </style>

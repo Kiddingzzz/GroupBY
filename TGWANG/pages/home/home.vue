@@ -55,7 +55,7 @@
 				 class="loupan"></image>
 				<view>楼盘热榜</view>
 			</view>
-			<view class="sideBank">
+			<view class="sideBank" v-on:click.native="goNavdesc('handhouse')">
 				<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
 				 class="loupan"></image>
 				<view>即将交房</view>
@@ -121,6 +121,10 @@
 				if(name == 'discount'){
 					uni.navigateTo({
 						url: '/pages/home/discount'
+					})
+				}else if(name == 'handhouse'){
+					uni.navigateTo({
+						url: '/pages/home/handhouse'
 					})
 				}
 			
