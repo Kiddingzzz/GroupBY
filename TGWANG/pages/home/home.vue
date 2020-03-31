@@ -10,112 +10,113 @@
 			<!-- <view class="dis-border"></view> -->
 		</view>
 		<view class="homebody">
-		<view class="tips">
-			<view class="cantcgl">
-				<view class="imgs imgs1">
-					<i class="iconfont icon-fangchan"></i>
-			 		<!-- <image class="imgs" src="../../static/房产.png"></image> -->
-				</view>
-	     	    <view>全部楼盘</view>
-			</view>
-			<view class="cantcgl">
-				<view class="imgs imgs2">
-					<i class="iconfont icon-shoulou"></i>
-					<!-- <image class="imgs" src="../../static/房屋交易.png"></image> -->
-				</view>
-				<view>在售楼盘</view>
-			</view>
-			<view class="cantcgl">
-				<view class="imgs imgs3">
-					<i class="iconfont icon-kaipan"></i>
-					<!-- <image class="imgs" src="../../static/购房办理.png"></image> -->
-				</view>
-				<view>已开盘</view>
-				<view class=""></view>
-			</view>
-			<view class="cantcgl">
-				<view class="imgs imgs4">
-					<i class="iconfont icon-fangjia"></i>
-					<!-- <image class="imgs" src="../../static/房子.png"></image> -->
-				</view>
-				<view>低总价</view>
-			</view>
-			<view class="cantcgl">
-				<view class="imgs imgs5">
-					<i class="iconfont icon-mianji"></i>
-					<!-- <image class="imgs" src="../../static/租房.png"></image> -->
-				</view>
-				<view>小面积</view>
-			</view>
-		</view>
-
-		<!-- 广告 -->
-		<view class="Advertisement">
-			广告位置
-		</view>
-
-
-		<!-- 楼盘热榜  近银行 -->
-		<view class="hotTop">
-			<view class="loupan" v-on:click.native="goNavdesc('discount')">
-				<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
-				 class="loupan"></image>
-				<view>楼盘热榜</view>
-			</view>
-			<view class="sideBank" v-on:click.native="goNavdesc('handhouse')">
-				<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
-				 class="loupan"></image>
-				<view>即将交房</view>
-			</view>
-		</view>
-
-		<view class="tolprice">
-	        <view class="pricebg">
-				<view class="city">
-					<view class="priceitem">
-						<text class="cityname">重庆房价</text>
-						<text class="pricedec" style="color: #333">城市行情</text>
+			<view class="tips">
+				<view class="cantcgl">
+					<view class="imgs imgs1">
+						<i class="iconfont icon-fangchan"></i>
+						<!-- <image class="imgs" src="../../static/房产.png"></image> -->
 					</view>
-					<i class="iconfont icon-back" style="font-size:20upx; margin-top: 12upx;"></i>
+					<view>全部楼盘</view>
 				</view>
-				<view class="priceitem" style="flex: 1;">
-					<view><text class="price">11502</text>元/㎡</view>
-					<view class="pricedec" style="display: flex;align-items: center;">二手房
-					<i class="iconfont icon-up" style="font-size:20upx; color: red;"></i>
-					1.49%</view>
+				<view class="cantcgl">
+					<view class="imgs imgs2">
+						<i class="iconfont icon-shoulou"></i>
+						<!-- <image class="imgs" src="../../static/房屋交易.png"></image> -->
+					</view>
+					<view>在售楼盘</view>
 				</view>
-				<view class="priceitem" style="flex: 1;">
-					<view><text class="price">11502</text>元/㎡</view>
-					<view class="pricedec" style="display: flex;align-items: center;">
-						新房
-						<i class="iconfont icon-down" style="font-size:20upx; color: green;"></i>
-						10.16%</view>
+				<view class="cantcgl">
+					<view class="imgs imgs3">
+						<i class="iconfont icon-kaipan"></i>
+						<!-- <image class="imgs" src="../../static/购房办理.png"></image> -->
+					</view>
+					<view>已开盘</view>
+					<view class=""></view>
+				</view>
+				<view class="cantcgl">
+					<view class="imgs imgs4">
+						<i class="iconfont icon-fangjia"></i>
+						<!-- <image class="imgs" src="../../static/房子.png"></image> -->
+					</view>
+					<view>低总价</view>
+				</view>
+				<view class="cantcgl">
+					<view class="imgs imgs5">
+						<i class="iconfont icon-mianji"></i>
+						<!-- <image class="imgs" src="../../static/租房.png"></image> -->
+					</view>
+					<view>小面积</view>
 				</view>
 			</view>
-		</view>
-		<!-- 楼盘热榜  近银行 -->
-		<view class="hotTop">
-			<view class="hhd">
-				<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
-				 class="loupan"></image>
-				<view>新盘抢先</view>
-			</view>
-			<view class="sideBank">
-				<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
-				 class="loupan"></image>
-				<view>近银行</view>
 
+			<!-- 广告 -->
+			<view class="Advertisement">
+				广告位置
 			</view>
-		</view>
-		<!-- 筛选列表 -->
-		<view></view>
-		<view>
-			<button class="button" type="primary" @click="togglePopup('top', 'popup')">顶部弹出 popup</button>
-		</view>
-		<uni-popup ref="showpopup" :type="type"><text class="popup-content">{{ content }}</text></uni-popup>
-		<!-- 组件列表 -->
-		<view>
-			<house-list v-for="(item,index) of list" :value="item" :key="index" v-on:click.native="goDetail(item.id)"></house-list>
+
+
+			<!-- 楼盘热榜  近银行 -->
+			<view class="hotTop">
+				<view class="loupan" v-on:click.native="goNavdesc('discount')">
+					<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
+					 class="loupan"></image>
+					<view>楼盘热榜</view>
+				</view>
+				<view class="sideBank" v-on:click.native="goNavdesc('handhouse')">
+					<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
+					 class="loupan"></image>
+					<view>即将交房</view>
+				</view>
+			</view>
+
+			<view class="tolprice">
+				<view class="pricebg">
+					<view class="city">
+						<view class="priceitem">
+							<text class="cityname">重庆房价</text>
+							<text class="pricedec" style="color: #333">城市行情</text>
+						</view>
+						<i class="iconfont icon-back" style="font-size:20upx; margin-top: 12upx;"></i>
+					</view>
+					<view class="priceitem" style="flex: 1;">
+						<view><text class="price">11502</text>元/㎡</view>
+						<view class="pricedec" style="display: flex;align-items: center;">二手房
+							<i class="iconfont icon-up" style="font-size:20upx; color: red;"></i>
+							1.49%</view>
+					</view>
+					<view class="priceitem" style="flex: 1;">
+						<view><text class="price">11502</text>元/㎡</view>
+						<view class="pricedec" style="display: flex;align-items: center;">
+							新房
+							<i class="iconfont icon-down" style="font-size:20upx; color: green;"></i>
+							10.16%</view>
+					</view>
+				</view>
+			</view>
+			<!-- 楼盘热榜  近银行 -->
+			<view class="hotTop">
+				<view class="hhd">
+					<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
+					 class="loupan"></image>
+					<view>新盘抢先</view>
+				</view>
+				<view class="sideBank">
+					<image src="http://img11.soufunimg.com/viewimage/house/2018_06/29/M1C/0D/E4/ChCE4Fs2IhaIXaYEAAHU5zsk-TwABDQqQGq5DkAAdT_388/200x150c4_80_1.jpg"
+					 class="loupan"></image>
+					<view>近银行</view>
+
+				</view>
+			</view>
+			<!-- 筛选列表 -->
+			<view></view>
+			<view>
+				<button class="button" type="primary" @click="togglePopup('top', 'popup')">顶部弹出 popup</button>
+			</view>
+			<uni-popup ref="showpopup" :type="type"><text class="popup-content">{{ content }}</text></uni-popup>
+			<!-- 组件列表 -->
+			<view>
+				<house-list v-for="(item,index) of list" :value="item" :key="index" v-on:click.native="goDetail(item.id)"></house-list>
+			</view>
 		</view>
 	</view>
 </template>
@@ -130,18 +131,18 @@
 		components: {
 			uniSearchBar,
 			uniSection,
-			houseList
+			houseList,
 			uniPopup,
 			uniIcons
 		},
 		data() {
 			return {
 				list: [],
-				type:'',
-				context:'顶部弹 popup'
-				address:'',
-				latitude:0,
-				longitude:0,
+				type: '',
+				context: '顶部弹 popup',
+				address: '',
+				latitude: 0,
+				longitude: 0,
 			}
 		},
 		onLoad() {
@@ -155,47 +156,47 @@
 				await this.$http.get('api/cms/house/houseList?userid=' + '0B1A1866-0BD3-72EB-25E5-39F3973F72EB').then(res => {
 					this.list = res.items;
 				})
-
-
 			},
 			//详情页面
-			goDetail(id,address) {
+			goDetail(id, address) {
 				let that = this;
 				uni.request({
-					url:'http://restapi.amap.com/v3/geocode/geo?key=a6b206443fb3a4db7cb605744f8f6f3b&address='+address+'&city=重庆',
-					method:'GET'
+					url: 'http://restapi.amap.com/v3/geocode/geo?key=a6b206443fb3a4db7cb605744f8f6f3b&address=' + address +
+						'&city=重庆',
+					method: 'GET'
 				}).then(res => {
 						that.latitude = res[1].data.geocodes[0].location.split(',')[0]
 						that.longitude = res[1].data.geocodes[0].location.split(',')[1]
 						uni.navigateTo({
-							url: '/pages/home/detail?id=' + id+'&latitude='+that.latitude+'&langitude='+that.longitude
-						})
-			},
-			//nav跳转详情
-			goNavdesc(name){
-				if(name == 'discount'){
-					uni.navigateTo({
-						url: '/pages/home/discount'
+							url: '/pages/home/detail?id=' + id + '&latitude=' + that.latitude + '&langitude=' + that.longitude
+						});
 					})
-				}else if(name == 'handhouse'){
-					uni.navigateTo({
-						url: '/pages/home/handhouse'
-					})
-				}
-			
 			},
-			togglePopup(type, open) {
+					//nav跳转详情
+					goNavdesc(name) {
+						if (name == 'discount') {
+							uni.navigateTo({
+								url: '/pages/home/discount'
+							})
+						} else if (name == 'handhouse') {
+							uni.navigateTo({
+								url: '/pages/home/handhouse'
+							})
+						}
 
-				this.type = type
-				this.$nextTick(() => {
-					this.$refs['show' + open].open()
-				})
-			},
-			cancel(type) {
-				this.$refs['show' + type].close()
-			},
-		}
-	}
+					},
+					togglePopup(type, open) {
+
+						this.type = type
+						this.$nextTick(() => {
+							this.$refs['show' + open].open()
+						})
+					},
+					cancel(type) {
+						this.$refs['show' + type].close()
+					},
+				}
+			}
 </script>
 
 <style lang="less">
@@ -212,24 +213,28 @@
 		flex: 1;
 		margin: 10px 0;
 	}
-        .dis-wrap{
+
+	.dis-wrap {
 		position: relative;
 		height: 400upx;
 		width: 100%;
-		image{
+
+		image {
 			width: 100%;
 			height: 400upx;
 			position: absolute;
 			z-index: -2;
 			top: 0;
 		}
-		.dis-tit{
+
+		.dis-tit {
 			font-size: 42upx;
 			font-weight: bold;
 			color: #fff;
 			text-align: center;
 			line-height: 250upx;
 		}
+
 		.masker {
 			position: absolute;
 			top: 0;
@@ -239,6 +244,7 @@
 			width: 100%;
 			z-index: -1;
 		}
+
 		.dis-border {
 			width: 100%;
 			height: 80upx;
@@ -247,12 +253,14 @@
 			bottom: 0;
 		}
 	}
-	.homebody{
+
+	.homebody {
 		display: flex;
 		flex-flow: column;
 		padding: 0 20upx;
 		margin-top: -100upx;
 	}
+
 	.det {
 		display: flex;
 		// height: 100vh;
@@ -285,7 +293,7 @@
 				flex-direction: column;
 				align-items: center;
 				justify-content: space-around;
-				
+
 				.imgs {
 					width: 90rpx;
 					height: 90rpx;
@@ -293,22 +301,27 @@
 					line-height: 90rpx;
 					border-radius: 20rpx;
 				}
-				.imgs1{
-					background: linear-gradient(60deg, #11b942,#39e566);
+
+				.imgs1 {
+					background: linear-gradient(60deg, #11b942, #39e566);
 				}
-				.imgs2{
-					background: linear-gradient(60deg, #ff6461,#ff7c73);
+
+				.imgs2 {
+					background: linear-gradient(60deg, #ff6461, #ff7c73);
 				}
-				.imgs3{
-					background: linear-gradient(45deg, #ff7f0e,#ffa04b);
+
+				.imgs3 {
+					background: linear-gradient(45deg, #ff7f0e, #ffa04b);
 				}
-				.imgs4{
-					background: linear-gradient(45deg, #646cf8,#9297fe);
+
+				.imgs4 {
+					background: linear-gradient(45deg, #646cf8, #9297fe);
 				}
-				.imgs5{
-					background: linear-gradient(45deg, #3383f5,#55a7f4);
-				}				
-				
+
+				.imgs5 {
+					background: linear-gradient(45deg, #3383f5, #55a7f4);
+				}
+
 			}
 		}
 
@@ -372,6 +385,7 @@
 				width: 100%;
 				display: flex;
 				position: relative;
+
 				view {
 					font-size: 18px;
 					text-align: center;
@@ -387,10 +401,11 @@
 				}
 			}
 		}
-		
-		.tolprice{
+
+		.tolprice {
+
 			// background: red;
-			.pricebg{
+			.pricebg {
 				background: url(../../static/sy_bg_fj.png) no-repeat;
 				width: 100%;
 				height: 100%;
@@ -399,26 +414,31 @@
 			}
 		}
 	}
-	.priceitem{
+
+	.priceitem {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		.pricedec{ 
+
+		.pricedec {
 			font-size: 20upx;
-			color:#9aa0a6;
+			color: #9aa0a6;
 		}
 	}
-	.price{
+
+	.price {
 		font-size: 36upx;
 		font-weight: bold;
 	}
-	.city{
+
+	.city {
 		color: #333;
 		flex: 1;
 		display: flex;
 		justify-content: center;
 		border-right: 1upx solid #e7e7e7;
-		.cityname{
+
+		.cityname {
 			font-size: 34upx;
 			font-weight: 550;
 		}
