@@ -12,7 +12,7 @@
 					<view class="integral">登录后即可体验更多服务</view>
 				</view>
 			</view>
-			<view class="setting" v-on:click.native="goLogin()"><image src="../../static/HM-PersonalCenter/next.png"></image></view>
+			<view class="setting"><image src="../../static/HM-PersonalCenter/next.png"></image></view>
 		</view>
 		<view class="orders">
 			<image class="donghua" src="../../static/img/centerimg/wave.gif"></image>
@@ -67,7 +67,6 @@ export default {
 					{ name: '向平台推荐网站', icon: 'quan.png' },
 					{ name: '历史推荐网站', icon: 'bank.png' },
 					{ name: '联系我们', icon: 'kefu.png' },
-					{ name: '登录', icon: 'kefu.png', urlname: '/pages/passport/login' },
 					// { name: '向平台推荐网站', icon: 'momey.png' },
 				]
 				// [
@@ -93,11 +92,6 @@ export default {
 				username: '开单王08042',
 				integral: '钻石会员'
 			};
-		},
-		goLogin() {
-			uni.navigateTo({
-				url: '/pages/passport/login'
-			})
 		},
 		//用户点击订单类型
 		toOrderType(index) {

@@ -45,11 +45,12 @@
 <style lang="less">
 	.dis-wrap {
 		position: relative;
-		height: 380upx;
+		height: 380rpx;
 		width: 100%;
 
 		image {
 			width: 100%;
+			height: 300upx;
 			height: 380upx;
 			position: absolute;
 			z-index: -2;
